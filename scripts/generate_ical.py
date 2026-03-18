@@ -9,7 +9,7 @@ Data source priority:
 
 import json
 import uuid
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -131,7 +131,7 @@ def ical_escape(s):
 
 def generate_ical(entries, api_overrides):
     DOCS_DIR.mkdir(exist_ok=True)
-    now = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     lines = [
         "BEGIN:VCALENDAR",
