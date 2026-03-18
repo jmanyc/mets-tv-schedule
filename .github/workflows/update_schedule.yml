@@ -1,0 +1,37 @@
+name: Update Mets Schedule
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # daily at 10:00 UTC (6am ET)
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch MLB API data
+        run: python3 scripts/fetch_mlb_api.py
+        # exit 2 = no SNY data yet, still continue to regenerate .ics from manual data
+        continue-on-error: false
+
+      - name: Generate iCal
+        run: python3 scripts/generate_ical.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/mets_2026.ics data/mlb_api_schedule.json || true
+          git diff --cached --quiet || git commit -m "chore: update Mets schedule $(date -u +%Y-%m-%d)"
+          git push
