@@ -62,4 +62,4 @@ def fetch():
 
 if __name__ == "__main__":
     found = fetch()
-    sys.exit(0 if found else 2)  # exit 2 = no SNY data yet (not an error)
+    sys.exit(0)  # always exit 0 — "no SNY data yet" is expected, not an error

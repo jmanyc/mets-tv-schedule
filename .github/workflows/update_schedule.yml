@@ -14,16 +14,18 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Fetch MLB API data
         run: python3 scripts/fetch_mlb_api.py
-        # exit 2 = no SNY data yet, still continue to regenerate .ics from manual data
-        continue-on-error: false
 
       - name: Generate iCal
         run: python3 scripts/generate_ical.py
