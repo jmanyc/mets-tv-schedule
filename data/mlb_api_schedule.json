@@ -394,7 +394,7 @@
           "description": "Mets Home Opener",
           "scheduledInnings": 9,
           "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
+          "inningBreakLength": 145,
           "gamesInSeries": 3,
           "seriesGameNumber": 1,
           "seriesDescription": "Regular Season",
@@ -649,10 +649,15 @@
               "language": "en",
               "isNational": false,
               "callSign": "SNP",
+              "videoResolution": {
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
+              },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -1039,10 +1044,15 @@
               "language": "en",
               "isNational": false,
               "callSign": "SNP",
+              "videoResolution": {
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
+              },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -8383,14 +8393,14 @@
               "isNational": false,
               "callSign": "MARQ",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -8836,14 +8846,14 @@
               "isNational": false,
               "callSign": "MARQ",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -9289,14 +9299,14 @@
               "isNational": false,
               "callSign": "MARQ",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -18689,6 +18699,78 @@
           },
           "broadcasts": [
             {
+              "id": 6019,
+              "name": "Apple TV",
+              "type": "TV",
+              "language": "en",
+              "isNational": true,
+              "callSign": "Apple TV",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 7,
+                "availabilityCode": "exclusive",
+                "availabilityText": "Exclusive"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-15",
+              "mediaId": "0f652f74-4bd4-4120-9a2e-d9e96a27bbd3",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "0f652f74-4bd4-4120-9a2e-d9e96a27bbd3",
+              "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 6019,
+              "name": "Apple TV",
+              "type": "TV",
+              "language": "en",
+              "isNational": true,
+              "callSign": "Apple TV",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 7,
+                "availabilityCode": "exclusive",
+                "availabilityText": "Exclusive"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-15",
+              "mediaId": "987e45b0-d9b6-42fc-a30c-816b427b36c0",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "987e45b0-d9b6-42fc-a30c-816b427b36c0",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": false,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
               "id": 174,
               "name": "WFAN 660/101.9 FM",
               "type": "AM",
@@ -19476,14 +19558,14 @@
               "isNational": false,
               "callSign": "YES",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -28944,6 +29026,78 @@
               "freeGameStatus": false
             },
             {
+              "id": 6019,
+              "name": "Apple TV",
+              "type": "TV",
+              "language": "en",
+              "isNational": true,
+              "callSign": "Apple TV",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 7,
+                "availabilityCode": "exclusive",
+                "availabilityText": "Exclusive"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-12",
+              "mediaId": "d7e57dd6-a2c0-40ee-9a14-34597bed77be",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "d7e57dd6-a2c0-40ee-9a14-34597bed77be",
+              "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 6019,
+              "name": "Apple TV",
+              "type": "TV",
+              "language": "en",
+              "isNational": true,
+              "callSign": "Apple TV",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 7,
+                "availabilityCode": "exclusive",
+                "availabilityText": "Exclusive"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-12",
+              "mediaId": "2dd62eff-c567-4b8b-9d16-4aa423ceab07",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "2dd62eff-c567-4b8b-9d16-4aa423ceab07",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": false,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
               "id": 236,
               "name": "Audacy Mets Radio WHSQ 880AM",
               "type": "AM",
@@ -32642,14 +32796,14 @@
               "isNational": false,
               "callSign": "MARQ",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -33073,14 +33227,14 @@
               "isNational": false,
               "callSign": "MARQ",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -33508,14 +33662,14 @@
               "isNational": false,
               "callSign": "MARQ",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -33907,14 +34061,14 @@
               "isNational": false,
               "callSign": "MARQ",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -35476,14 +35630,14 @@
               "isNational": false,
               "callSign": "Sportsnet",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -35911,14 +36065,14 @@
               "isNational": false,
               "callSign": "Sportsnet",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -36310,14 +36464,14 @@
               "isNational": false,
               "callSign": "Sportsnet",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -49082,10 +49236,15 @@
               "language": "en",
               "isNational": false,
               "callSign": "SNP",
+              "videoResolution": {
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
+              },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -49472,10 +49631,15 @@
               "language": "en",
               "isNational": false,
               "callSign": "SNP",
+              "videoResolution": {
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
+              },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -49862,10 +50026,15 @@
               "language": "en",
               "isNational": false,
               "callSign": "SNP",
+              "videoResolution": {
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
+              },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -61620,14 +61789,14 @@
               "isNational": false,
               "callSign": "YES",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -62010,14 +62179,14 @@
               "isNational": false,
               "callSign": "YES",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -62436,14 +62605,14 @@
               "isNational": false,
               "callSign": "YES",
               "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
               },
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
