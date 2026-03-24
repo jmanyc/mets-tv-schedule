@@ -95,7 +95,7 @@ def make_summary(entry, api_override=None):
         matchup = f"Mets @ {opponent}"
     return f"{matchup} [{network}]"
 
-def make_description(entry, api_override=None):
+def make_description(entry, api_override=None, clamped=False):
     lines = []
 
     home_away = entry.get("home_away")
@@ -121,6 +121,10 @@ def make_description(entry, api_override=None):
 
     if entry.get("postgame"):
         lines.append(f"Post-game: {entry['postgame']}")
+
+    if clamped:
+        lines.append("")
+        lines.append("Note: Late game — likely ends after midnight ET.")
 
     lines.append("")
     lines.append("Go Mets!")
@@ -159,8 +163,15 @@ def generate_ical(entries, api_overrides):
             continue
 
         end = start + GAME_DURATION
+
+        # Clamp end time to 11:59 PM so late games don't bleed into the next day on iOS
+        midnight = start.replace(hour=23, minute=59, second=0)
+        clamped = end > midnight
+        if clamped:
+            end = midnight
+
         summary = ical_escape(make_summary(entry, api_override))
-        description = make_description(entry, api_override)
+        description = make_description(entry, api_override, clamped=clamped)
 
         home_away = entry.get("home_away", "")
         if home_away == "home":
