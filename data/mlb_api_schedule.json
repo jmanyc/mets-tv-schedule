@@ -17521,13 +17521,15 @@
                 "runs": 1,
                 "hits": 6,
                 "errors": 0,
-                "leftOnBase": 7
+                "leftOnBase": 7,
+                "isWinner": false
               },
               "away": {
                 "runs": 7,
                 "hits": 8,
                 "errors": 0,
-                "leftOnBase": 4
+                "leftOnBase": 4,
+                "isWinner": true
               }
             },
             "defense": {
@@ -29019,15 +29021,13 @@
                 "runs": 4,
                 "hits": 5,
                 "errors": 1,
-                "leftOnBase": 4,
-                "isWinner": true
+                "leftOnBase": 4
               },
               "away": {
                 "runs": 2,
                 "hits": 7,
                 "errors": 0,
-                "leftOnBase": 8,
-                "isWinner": false
+                "leftOnBase": 8
               }
             },
             "defense": {
@@ -32794,11 +32794,6 @@
                           "type": "taxonomy",
                           "value": "send-to-news-mlb-feed",
                           "displayName": "Send To News MLB feed"
-                        },
-                        {
-                          "type": "taxonomy",
-                          "value": "netflix-vod",
-                          "displayName": "Netflix VOD"
                         }
                       ],
                       "keywordsDisplay": [
@@ -34254,11 +34249,6 @@
                           "type": "taxonomy",
                           "value": "send-to-news-mlb-feed",
                           "displayName": "Send To News MLB feed"
-                        },
-                        {
-                          "type": "taxonomy",
-                          "value": "netflix-vod",
-                          "displayName": "Netflix VOD"
                         },
                         {
                           "type": "team",
@@ -37130,11 +37120,6 @@
                           "displayName": "Send To News MLB feed"
                         },
                         {
-                          "type": "taxonomy",
-                          "value": "netflix-vod",
-                          "displayName": "Netflix VOD"
-                        },
-                        {
                           "type": "team",
                           "value": "teamid-121",
                           "displayName": "New York Mets"
@@ -38949,11 +38934,6 @@
                           "displayName": "Send To News MLB feed"
                         },
                         {
-                          "type": "taxonomy",
-                          "value": "netflix-vod",
-                          "displayName": "Netflix VOD"
-                        },
-                        {
                           "type": "team",
                           "value": "teamid-121",
                           "displayName": "New York Mets"
@@ -40336,11 +40316,6 @@
                           "displayName": "Apple News"
                         },
                         {
-                          "type": "taxonomy",
-                          "value": "netflix-vod",
-                          "displayName": "Netflix VOD"
-                        },
-                        {
                           "type": "team",
                           "value": "teamid-121",
                           "displayName": "New York Mets"
@@ -40920,42 +40895,6 @@
           },
           "broadcasts": [
             {
-              "id": 6382,
-              "name": "Nationals.TV",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "NATS",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-04-28",
-              "mediaId": "bde2b883-a8ba-4dfe-85e8-fd44d7d0dc67",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "bde2b883-a8ba-4dfe-85e8-fd44d7d0dc67",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -40993,16 +40932,21 @@
               "freeGameStatus": false
             },
             {
-              "id": 4044,
-              "name": "WJFK 106.7 The Fan",
-              "type": "FM",
+              "id": 6382,
+              "name": "Nationals.TV",
+              "type": "TV",
               "language": "en",
               "isNational": false,
-              "callSign": "106.7 FM",
+              "callSign": "NATS",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
               "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -41010,12 +40954,16 @@
                 "mediaStateText": "Media Off"
               },
               "broadcastDate": "2026-04-28",
-              "mediaId": "ad49699e-241b-412b-bb89-5f54262a0099",
-              "gameDateBroadcastGuid": "ad49699e-241b-412b-bb89-5f54262a0099",
+              "mediaId": "bde2b883-a8ba-4dfe-85e8-fd44d7d0dc67",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "bde2b883-a8ba-4dfe-85e8-fd44d7d0dc67",
               "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
-              "postGameShow": false,
+              "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -41040,6 +40988,33 @@
               "mediaId": "41d45853-efd4-4267-92d2-42e1201b6a56",
               "gameDateBroadcastGuid": "41d45853-efd4-4267-92d2-42e1201b6a56",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 4044,
+              "name": "WJFK 106.7 The Fan",
+              "type": "FM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "106.7 FM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-04-28",
+              "mediaId": "ad49699e-241b-412b-bb89-5f54262a0099",
+              "gameDateBroadcastGuid": "ad49699e-241b-412b-bb89-5f54262a0099",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -42075,8 +42050,8 @@
               },
               "leagueRecord": {
                 "wins": 12,
-                "losses": 17,
-                "pct": ".414"
+                "losses": 18,
+                "pct": ".400"
               },
               "splitSquad": false,
               "seriesNumber": 11,
@@ -42328,6 +42303,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -42501,8 +42488,8 @@
               },
               "leagueRecord": {
                 "wins": 12,
-                "losses": 17,
-                "pct": ".414"
+                "losses": 18,
+                "pct": ".400"
               },
               "splitSquad": false,
               "seriesNumber": 11,
@@ -42722,6 +42709,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -42895,8 +42894,8 @@
               },
               "leagueRecord": {
                 "wins": 12,
-                "losses": 17,
-                "pct": ".414"
+                "losses": 18,
+                "pct": ".400"
               },
               "splitSquad": false,
               "seriesNumber": 11,
@@ -43147,6 +43146,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -43564,6 +43575,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -43979,6 +44002,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -44396,6 +44431,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -44747,33 +44794,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 6424,
-              "name": "KNAI 101.9 FM / 860 AM",
-              "type": "AM",
-              "language": "es",
-              "isNational": false,
-              "callSign": "KNAI",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-05-08",
-              "mediaId": "9da88b07-c754-4bc0-a0fd-df02cfa3753d",
-              "gameDateBroadcastGuid": "9da88b07-c754-4bc0-a0fd-df02cfa3753d",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6172,
               "name": "Audacy App 92.3 HD2",
               "type": "FM",
@@ -44799,6 +44819,33 @@
               "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
+            },
+            {
+              "id": 6424,
+              "name": "KNAI 101.9 FM / 860 AM",
+              "type": "AM",
+              "language": "es",
+              "isNational": false,
+              "callSign": "KNAI",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-08",
+              "mediaId": "9da88b07-c754-4bc0-a0fd-df02cfa3753d",
+              "gameDateBroadcastGuid": "9da88b07-c754-4bc0-a0fd-df02cfa3753d",
+              "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
             }
           ],
           "content": {
@@ -44811,6 +44858,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -45222,6 +45281,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -45445,6 +45516,33 @@
           },
           "broadcasts": [
             {
+              "id": 4975,
+              "name": "98.7 FM Arizona's Sports Station",
+              "type": "FM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "98.7 FM ",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-10",
+              "mediaId": "02e4c532-bbe7-4f92-bfce-580b6a0251c4",
+              "gameDateBroadcastGuid": "02e4c532-bbe7-4f92-bfce-580b6a0251c4",
+              "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -45478,33 +45576,6 @@
               "availableForStreaming": true,
               "preGameShow": "2026-05-10T15:30:00-04:00",
               "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
-              "id": 4975,
-              "name": "98.7 FM Arizona's Sports Station",
-              "type": "FM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "98.7 FM ",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-05-10",
-              "mediaId": "02e4c532-bbe7-4f92-bfce-580b6a0251c4",
-              "gameDateBroadcastGuid": "02e4c532-bbe7-4f92-bfce-580b6a0251c4",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -45637,6 +45708,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -46026,6 +46109,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -46249,42 +46344,6 @@
           },
           "broadcasts": [
             {
-              "id": 6420,
-              "name": "Detroit SportsNet",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "DSN",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-05-13",
-              "mediaId": "58eeed6b-de61-4487-892d-290862a9f02f",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "58eeed6b-de61-4487-892d-290862a9f02f",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -46322,16 +46381,21 @@
               "freeGameStatus": false
             },
             {
-              "id": 2141,
-              "name": "WXYT 97.1 FM",
-              "type": "FM",
+              "id": 6420,
+              "name": "Detroit SportsNet",
+              "type": "TV",
               "language": "en",
               "isNational": false,
-              "callSign": "WXYTFM",
+              "callSign": "DSN",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
               "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -46339,12 +46403,16 @@
                 "mediaStateText": "Media Off"
               },
               "broadcastDate": "2026-05-13",
-              "mediaId": "37923a5a-3a5d-45b3-9de4-e1f449e08761",
-              "gameDateBroadcastGuid": "37923a5a-3a5d-45b3-9de4-e1f449e08761",
+              "mediaId": "58eeed6b-de61-4487-892d-290862a9f02f",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "58eeed6b-de61-4487-892d-290862a9f02f",
               "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
-              "postGameShow": false,
+              "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -46369,6 +46437,33 @@
               "mediaId": "6b76cc30-1284-4843-88a9-1c59ca7f26e8",
               "gameDateBroadcastGuid": "6b76cc30-1284-4843-88a9-1c59ca7f26e8",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 2141,
+              "name": "WXYT 97.1 FM",
+              "type": "FM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "WXYTFM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-13",
+              "mediaId": "37923a5a-3a5d-45b3-9de4-e1f449e08761",
+              "gameDateBroadcastGuid": "37923a5a-3a5d-45b3-9de4-e1f449e08761",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -46413,6 +46508,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -46802,6 +46909,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -46904,9 +47023,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 10,
-                "pct": ".643"
+                "pct": ".655"
               },
               "splitSquad": false,
               "seriesNumber": 15,
@@ -47216,6 +47335,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -47318,9 +47449,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 10,
-                "pct": ".643"
+                "pct": ".655"
               },
               "splitSquad": false,
               "seriesNumber": 15,
@@ -47744,9 +47875,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 10,
-                "pct": ".643"
+                "pct": ".655"
               },
               "splitSquad": false,
               "seriesNumber": 15,
@@ -47865,6 +47996,42 @@
           },
           "broadcasts": [
             {
+              "id": 245,
+              "name": "YES",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "YES",
+              "videoResolution": {
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
+              },
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-17",
+              "mediaId": "dd8eaffe-d056-4f14-99e2-16ebafe6b5de",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "dd8eaffe-d056-4f14-99e2-16ebafe6b5de",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -47898,42 +48065,6 @@
               "availableForStreaming": true,
               "preGameShow": "2026-05-17T13:00:00-04:00",
               "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
-              "id": 245,
-              "name": "YES",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "YES",
-              "videoResolution": {
-                "code": "H",
-                "resolutionShort": "HD",
-                "resolutionFull": "High Resolution"
-              },
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-05-17",
-              "mediaId": "dd8eaffe-d056-4f14-99e2-16ebafe6b5de",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "dd8eaffe-d056-4f14-99e2-16ebafe6b5de",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -47992,33 +48123,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 6172,
-              "name": "Audacy App 92.3 HD2",
-              "type": "FM",
-              "language": "es",
-              "isNational": false,
-              "callSign": "Audacy",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-05-17",
-              "mediaId": "50913ad0-0814-431a-8b59-d5d33517bd14",
-              "gameDateBroadcastGuid": "50913ad0-0814-431a-8b59-d5d33517bd14",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 199,
               "name": "WADO 1280",
               "type": "AM",
@@ -48039,6 +48143,33 @@
               "mediaId": "71c14702-b24c-4398-84d4-547fb8e7b5ba",
               "gameDateBroadcastGuid": "71c14702-b24c-4398-84d4-547fb8e7b5ba",
               "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 6172,
+              "name": "Audacy App 92.3 HD2",
+              "type": "FM",
+              "language": "es",
+              "isNational": false,
+              "callSign": "Audacy",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-17",
+              "mediaId": "50913ad0-0814-431a-8b59-d5d33517bd14",
+              "gameDateBroadcastGuid": "50913ad0-0814-431a-8b59-d5d33517bd14",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -48693,43 +48824,6 @@
           },
           "broadcasts": [
             {
-              "id": 6382,
-              "name": "Nationals.TV",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "NATS",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-05-19",
-              "mediaId": "1a5a8690-3454-4d3e-951d-f20b2d8bc3fb",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "1a5a8690-3454-4d3e-951d-f20b2d8bc3fb",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-05-19T18:15:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -48767,16 +48861,21 @@
               "freeGameStatus": false
             },
             {
-              "id": 4044,
-              "name": "WJFK 106.7 The Fan",
-              "type": "FM",
+              "id": 6382,
+              "name": "Nationals.TV",
+              "type": "TV",
               "language": "en",
               "isNational": false,
-              "callSign": "106.7 FM",
+              "callSign": "NATS",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
               "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -48784,12 +48883,17 @@
                 "mediaStateText": "Media Off"
               },
               "broadcastDate": "2026-05-19",
-              "mediaId": "91ca0da9-58ac-4ebd-b25b-3caa03755409",
-              "gameDateBroadcastGuid": "91ca0da9-58ac-4ebd-b25b-3caa03755409",
+              "mediaId": "1a5a8690-3454-4d3e-951d-f20b2d8bc3fb",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "1a5a8690-3454-4d3e-951d-f20b2d8bc3fb",
               "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
-              "postGameShow": false,
+              "preGameShow": "2026-05-19T18:15:00-04:00",
+              "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -48814,6 +48918,33 @@
               "mediaId": "6ed46e6a-111e-44a5-b563-12bd55900850",
               "gameDateBroadcastGuid": "6ed46e6a-111e-44a5-b563-12bd55900850",
               "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 4044,
+              "name": "WJFK 106.7 The Fan",
+              "type": "FM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "106.7 FM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-19",
+              "mediaId": "91ca0da9-58ac-4ebd-b25b-3caa03755409",
+              "gameDateBroadcastGuid": "91ca0da9-58ac-4ebd-b25b-3caa03755409",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -48858,6 +48989,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -49248,6 +49391,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -49637,6 +49792,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 4,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -49810,8 +49977,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 17,
@@ -50053,6 +50220,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -50226,8 +50405,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 17,
@@ -50469,6 +50648,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -50642,8 +50833,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 17,
@@ -51285,6 +51476,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -51581,33 +51784,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 180,
-              "name": "WLW 700",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "WLW",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-05-26",
-              "mediaId": "605903ce-9ef1-4af8-9945-624e04a635d6",
-              "gameDateBroadcastGuid": "605903ce-9ef1-4af8-9945-624e04a635d6",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 236,
               "name": "Audacy Mets Radio WHSQ 880AM",
               "type": "AM",
@@ -51628,6 +51804,33 @@
               "mediaId": "bdaa3585-08aa-4a17-92f7-1ed809da4baa",
               "gameDateBroadcastGuid": "bdaa3585-08aa-4a17-92f7-1ed809da4baa",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 180,
+              "name": "WLW 700",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "WLW",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-26",
+              "mediaId": "605903ce-9ef1-4af8-9945-624e04a635d6",
+              "gameDateBroadcastGuid": "605903ce-9ef1-4af8-9945-624e04a635d6",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -51672,6 +51875,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -51896,42 +52111,6 @@
           },
           "broadcasts": [
             {
-              "id": 6215,
-              "name": "Reds.TV",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "CINR",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-05-27",
-              "mediaId": "b0f398d6-9384-4a2c-998d-2bdbc3b2f553",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "b0f398d6-9384-4a2c-998d-2bdbc3b2f553",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -51964,6 +52143,42 @@
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-05-27T18:30:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 6215,
+              "name": "Reds.TV",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "CINR",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-05-27",
+              "mediaId": "b0f398d6-9384-4a2c-998d-2bdbc3b2f553",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "b0f398d6-9384-4a2c-998d-2bdbc3b2f553",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
               "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
@@ -52060,6 +52275,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -52164,8 +52391,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 19,
@@ -52512,6 +52739,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -52615,8 +52854,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 19,
@@ -52927,6 +53166,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -53030,8 +53281,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 19,
@@ -53342,6 +53593,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -53515,8 +53778,8 @@
               },
               "leagueRecord": {
                 "wins": 14,
-                "losses": 15,
-                "pct": ".483"
+                "losses": 16,
+                "pct": ".467"
               },
               "splitSquad": false,
               "seriesNumber": 20,
@@ -53565,43 +53828,6 @@
           },
           "broadcasts": [
             {
-              "id": 741,
-              "name": "SNY",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SNY",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-06-01",
-              "mediaId": "33133f51-a650-4a07-b47f-9efab64298b7",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "33133f51-a650-4a07-b47f-9efab64298b7",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-06-01T21:00:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6351,
               "name": "Mariners.TV",
               "type": "TV",
@@ -53631,6 +53857,43 @@
               },
               "gameDateBroadcastGuid": "4e39f586-eedd-4af4-927a-a2be1bca935b",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-06-01T21:00:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 741,
+              "name": "SNY",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SNY",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-01",
+              "mediaId": "33133f51-a650-4a07-b47f-9efab64298b7",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "33133f51-a650-4a07-b47f-9efab64298b7",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-06-01T21:00:00-04:00",
@@ -53730,6 +53993,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -53904,8 +54179,8 @@
               },
               "leagueRecord": {
                 "wins": 14,
-                "losses": 15,
-                "pct": ".483"
+                "losses": 16,
+                "pct": ".467"
               },
               "splitSquad": false,
               "seriesNumber": 20,
@@ -54120,6 +54395,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -54294,8 +54581,8 @@
               },
               "leagueRecord": {
                 "wins": 14,
-                "losses": 15,
-                "pct": ".483"
+                "losses": 16,
+                "pct": ".467"
               },
               "splitSquad": false,
               "seriesNumber": 20,
@@ -54510,6 +54797,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -54682,9 +54981,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 9,
-                "pct": ".667"
+                "pct": ".679"
               },
               "splitSquad": false,
               "seriesNumber": 21,
@@ -54926,6 +55225,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -55098,9 +55409,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 9,
-                "pct": ".667"
+                "pct": ".679"
               },
               "splitSquad": false,
               "seriesNumber": 21,
@@ -55342,6 +55653,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -55514,9 +55837,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 9,
-                "pct": ".667"
+                "pct": ".679"
               },
               "splitSquad": false,
               "seriesNumber": 21,
@@ -55758,6 +56081,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -55860,9 +56195,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 14,
+                "wins": 15,
                 "losses": 13,
-                "pct": ".519"
+                "pct": ".536"
               },
               "splitSquad": false,
               "seriesNumber": 22,
@@ -56147,6 +56482,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -56249,9 +56596,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 14,
+                "wins": 15,
                 "losses": 13,
-                "pct": ".519"
+                "pct": ".536"
               },
               "splitSquad": false,
               "seriesNumber": 22,
@@ -56444,33 +56791,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 236,
-              "name": "Audacy Mets Radio WHSQ 880AM",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "WHSQ 880AM",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-06-10",
-              "mediaId": "5e669294-a465-4fee-b36c-a04b8dfe2a22",
-              "gameDateBroadcastGuid": "5e669294-a465-4fee-b36c-a04b8dfe2a22",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 105,
               "name": "KMOX 1120 AM/104.1 FM",
               "type": "AM",
@@ -56491,6 +56811,33 @@
               "mediaId": "920694ad-25ef-4b9e-b382-7372b55493bd",
               "gameDateBroadcastGuid": "920694ad-25ef-4b9e-b382-7372b55493bd",
               "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 236,
+              "name": "Audacy Mets Radio WHSQ 880AM",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "WHSQ 880AM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-10",
+              "mediaId": "5e669294-a465-4fee-b36c-a04b8dfe2a22",
+              "gameDateBroadcastGuid": "5e669294-a465-4fee-b36c-a04b8dfe2a22",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -56535,6 +56882,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -56638,9 +56997,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 14,
+                "wins": 15,
                 "losses": 13,
-                "pct": ".519"
+                "pct": ".536"
               },
               "splitSquad": false,
               "seriesNumber": 22,
@@ -56759,43 +57118,6 @@
           },
           "broadcasts": [
             {
-              "id": 741,
-              "name": "SNY",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SNY",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-06-11",
-              "mediaId": "389ecf88-a1be-4e94-b148-ac1e557f1408",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "389ecf88-a1be-4e94-b148-ac1e557f1408",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-06-11T12:30:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6415,
               "name": "Cardinals.TV",
               "type": "TV",
@@ -56828,6 +57150,43 @@
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-06-11T12:45:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 741,
+              "name": "SNY",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SNY",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-11",
+              "mediaId": "389ecf88-a1be-4e94-b148-ac1e557f1408",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "389ecf88-a1be-4e94-b148-ac1e557f1408",
+              "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-06-11T12:30:00-04:00",
               "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
@@ -56924,6 +57283,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -57311,6 +57682,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -57701,6 +58084,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -57924,43 +58319,6 @@
           },
           "broadcasts": [
             {
-              "id": 6458,
-              "name": "BravesVision",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "BravesVsn",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-06-14",
-              "mediaId": "513d697f-6222-4859-896c-e665243d0a8f",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "513d697f-6222-4859-896c-e665243d0a8f",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-06-14T13:00:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 186,
               "name": "WPIX",
               "type": "TV",
@@ -58025,6 +58383,43 @@
               "freeGameStatus": false
             },
             {
+              "id": 6458,
+              "name": "BravesVision",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "BravesVsn",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-14",
+              "mediaId": "513d697f-6222-4859-896c-e665243d0a8f",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "513d697f-6222-4859-896c-e665243d0a8f",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-06-14T13:00:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
               "id": 236,
               "name": "Audacy Mets Radio WHSQ 880AM",
               "type": "AM",
@@ -58047,6 +58442,42 @@
               "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 6222,
+              "name": "Gray TV",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "GTV",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-14",
+              "mediaId": "e7e10748-5ab5-463c-9a29-898901dcc23d",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "e7e10748-5ab5-463c-9a29-898901dcc23d",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": false,
               "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
@@ -58089,6 +58520,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -58786,43 +59229,6 @@
           },
           "broadcasts": [
             {
-              "id": 741,
-              "name": "SNY",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SNY",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-06-16",
-              "mediaId": "bc8d1176-c5df-491b-9b34-dc00d94dd83c",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "bc8d1176-c5df-491b-9b34-dc00d94dd83c",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-06-16T18:30:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6215,
               "name": "Reds.TV",
               "type": "TV",
@@ -58852,6 +59258,43 @@
               },
               "gameDateBroadcastGuid": "153e046e-b524-46fa-8a5f-0e2bdd819af6",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-06-16T18:30:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 741,
+              "name": "SNY",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SNY",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-16",
+              "mediaId": "bc8d1176-c5df-491b-9b34-dc00d94dd83c",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "bc8d1176-c5df-491b-9b34-dc00d94dd83c",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-06-16T18:30:00-04:00",
@@ -60271,6 +60714,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -60685,6 +61140,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -60788,8 +61255,8 @@
               },
               "leagueRecord": {
                 "wins": 17,
-                "losses": 11,
-                "pct": ".607"
+                "losses": 12,
+                "pct": ".586"
               },
               "splitSquad": false,
               "seriesNumber": 26,
@@ -60908,6 +61375,43 @@
           },
           "broadcasts": [
             {
+              "id": 5580,
+              "name": "Marquee Sports Network",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "MARQ",
+              "videoResolution": {
+                "code": "H",
+                "resolutionShort": "HD",
+                "resolutionFull": "High Resolution"
+              },
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-22",
+              "mediaId": "74ff6c34-52b8-4b45-ab86-c2631046b33a",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "74ff6c34-52b8-4b45-ab86-c2631046b33a",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-06-22T18:00:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
               "id": 764,
               "name": "104.3 The Score",
               "type": "FM",
@@ -60967,43 +61471,6 @@
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-06-22T18:30:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
-              "id": 5580,
-              "name": "Marquee Sports Network",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "MARQ",
-              "videoResolution": {
-                "code": "H",
-                "resolutionShort": "HD",
-                "resolutionFull": "High Resolution"
-              },
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-06-22",
-              "mediaId": "74ff6c34-52b8-4b45-ab86-c2631046b33a",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "74ff6c34-52b8-4b45-ab86-c2631046b33a",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-06-22T18:00:00-04:00",
               "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
@@ -61073,6 +61540,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -61177,8 +61656,8 @@
               },
               "leagueRecord": {
                 "wins": 17,
-                "losses": 11,
-                "pct": ".607"
+                "losses": 12,
+                "pct": ".586"
               },
               "splitSquad": false,
               "seriesNumber": 26,
@@ -61531,6 +62010,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -61634,8 +62125,8 @@
               },
               "leagueRecord": {
                 "wins": 17,
-                "losses": 11,
-                "pct": ".607"
+                "losses": 12,
+                "pct": ".586"
               },
               "splitSquad": false,
               "seriesNumber": 26,
@@ -61920,6 +62411,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -62023,8 +62526,8 @@
               },
               "leagueRecord": {
                 "wins": 17,
-                "losses": 11,
-                "pct": ".607"
+                "losses": 12,
+                "pct": ".586"
               },
               "splitSquad": false,
               "seriesNumber": 26,
@@ -62308,6 +62811,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 4,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -62725,6 +63240,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -63140,6 +63667,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -63557,6 +64096,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -63730,8 +64281,8 @@
               },
               "leagueRecord": {
                 "wins": 12,
-                "losses": 15,
-                "pct": ".444"
+                "losses": 16,
+                "pct": ".429"
               },
               "splitSquad": false,
               "seriesNumber": 28,
@@ -63854,33 +64405,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 230,
-              "name": "SN590 THE FAN",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SN590",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-06-29",
-              "mediaId": "50b00c59-d3ae-48b5-aaa4-ff871315898a",
-              "gameDateBroadcastGuid": "50b00c59-d3ae-48b5-aaa4-ff871315898a",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 236,
               "name": "Audacy Mets Radio WHSQ 880AM",
               "type": "AM",
@@ -63901,6 +64425,33 @@
               "mediaId": "66461239-8425-49f8-95a9-6303b470638a",
               "gameDateBroadcastGuid": "66461239-8425-49f8-95a9-6303b470638a",
               "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 230,
+              "name": "SN590 THE FAN",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SN590",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-06-29",
+              "mediaId": "50b00c59-d3ae-48b5-aaa4-ff871315898a",
+              "gameDateBroadcastGuid": "50b00c59-d3ae-48b5-aaa4-ff871315898a",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -64167,8 +64718,8 @@
               },
               "leagueRecord": {
                 "wins": 12,
-                "losses": 15,
-                "pct": ".444"
+                "losses": 16,
+                "pct": ".429"
               },
               "splitSquad": false,
               "seriesNumber": 28,
@@ -64568,8 +65119,8 @@
               },
               "leagueRecord": {
                 "wins": 12,
-                "losses": 15,
-                "pct": ".444"
+                "losses": 16,
+                "pct": ".429"
               },
               "splitSquad": false,
               "seriesNumber": 28,
@@ -64618,43 +65169,6 @@
           },
           "broadcasts": [
             {
-              "id": 741,
-              "name": "SNY",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SNY",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-07-01",
-              "mediaId": "0ee83c4c-0455-4045-a0d5-ad80733b6497",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "0ee83c4c-0455-4045-a0d5-ad80733b6497",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-07-01T14:30:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 3864,
               "name": "Sportsnet",
               "type": "TV",
@@ -64684,6 +65198,43 @@
               },
               "gameDateBroadcastGuid": "8eebfd24-1e3d-4046-bc9e-f874eb9ee534",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-07-01T14:30:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 741,
+              "name": "SNY",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SNY",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-07-01",
+              "mediaId": "0ee83c4c-0455-4045-a0d5-ad80733b6497",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "0ee83c4c-0455-4045-a0d5-ad80733b6497",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-07-01T14:30:00-04:00",
@@ -66808,6 +67359,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -67223,6 +67786,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -67640,6 +68215,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -67742,9 +68329,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 11,
+                "wins": 12,
                 "losses": 17,
-                "pct": ".393"
+                "pct": ".414"
               },
               "splitSquad": false,
               "seriesNumber": 31,
@@ -68197,9 +68784,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 11,
+                "wins": 12,
                 "losses": 17,
-                "pct": ".393"
+                "pct": ".414"
               },
               "splitSquad": false,
               "seriesNumber": 31,
@@ -68610,6 +69197,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -68712,9 +69311,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 11,
+                "wins": 12,
                 "losses": 17,
-                "pct": ".393"
+                "pct": ".414"
               },
               "splitSquad": false,
               "seriesNumber": 31,
@@ -69052,6 +69651,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -69462,6 +70073,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -69880,6 +70503,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -70296,6 +70931,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -70685,6 +71332,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -70982,33 +71641,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 192,
-              "name": "WTMJ 620",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "WTMJ",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-07-21",
-              "mediaId": "119b3b49-6fb1-48c0-9768-fb8f2db57a12",
-              "gameDateBroadcastGuid": "119b3b49-6fb1-48c0-9768-fb8f2db57a12",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 236,
               "name": "Audacy Mets Radio WHSQ 880AM",
               "type": "AM",
@@ -71029,6 +71661,33 @@
               "mediaId": "624ca6be-9a36-4e2d-a877-0afbc6a34750",
               "gameDateBroadcastGuid": "624ca6be-9a36-4e2d-a877-0afbc6a34750",
               "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 192,
+              "name": "WTMJ 620",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "WTMJ",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-07-21",
+              "mediaId": "119b3b49-6fb1-48c0-9768-fb8f2db57a12",
+              "gameDateBroadcastGuid": "119b3b49-6fb1-48c0-9768-fb8f2db57a12",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -71589,9 +72248,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 19,
+                "wins": 20,
                 "losses": 9,
-                "pct": ".679"
+                "pct": ".690"
               },
               "splitSquad": false,
               "seriesNumber": 34,
@@ -71784,33 +72443,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 102,
-              "name": "Dodgers Radio AM570",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "KLAC AM570",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-07-24",
-              "mediaId": "4b420aa3-3f71-40eb-a9c5-b23d894421c2",
-              "gameDateBroadcastGuid": "4b420aa3-3f71-40eb-a9c5-b23d894421c2",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 236,
               "name": "Audacy Mets Radio WHSQ 880AM",
               "type": "AM",
@@ -71831,6 +72463,33 @@
               "mediaId": "bce310c0-4803-40cb-8ae1-f1ef9f57a0f7",
               "gameDateBroadcastGuid": "bce310c0-4803-40cb-8ae1-f1ef9f57a0f7",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 102,
+              "name": "Dodgers Radio AM570",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "KLAC AM570",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-07-24",
+              "mediaId": "4b420aa3-3f71-40eb-a9c5-b23d894421c2",
+              "gameDateBroadcastGuid": "4b420aa3-3f71-40eb-a9c5-b23d894421c2",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -71902,6 +72561,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -72005,9 +72676,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 19,
+                "wins": 20,
                 "losses": 9,
-                "pct": ".679"
+                "pct": ".690"
               },
               "splitSquad": false,
               "seriesNumber": 34,
@@ -72317,6 +72988,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -72419,9 +73102,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 19,
+                "wins": 20,
                 "losses": 9,
-                "pct": ".679"
+                "pct": ".690"
               },
               "splitSquad": false,
               "seriesNumber": 34,
@@ -72732,6 +73415,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -73149,6 +73844,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -73409,33 +74116,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 4024,
-              "name": "680 AM/93.7 FM The Fan",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "680 AM",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-07-28",
-              "mediaId": "d9d0d90f-60d1-4a80-ad52-51ae241dd155",
-              "gameDateBroadcastGuid": "d9d0d90f-60d1-4a80-ad52-51ae241dd155",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6458,
               "name": "BravesVision",
               "type": "TV",
@@ -73469,6 +74149,33 @@
               "availableForStreaming": true,
               "preGameShow": "2026-07-28T18:30:00-04:00",
               "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 4024,
+              "name": "680 AM/93.7 FM The Fan",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "680 AM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-07-28",
+              "mediaId": "d9d0d90f-60d1-4a80-ad52-51ae241dd155",
+              "gameDateBroadcastGuid": "d9d0d90f-60d1-4a80-ad52-51ae241dd155",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -73527,6 +74234,42 @@
               "freeGameStatus": false
             },
             {
+              "id": 6222,
+              "name": "Gray TV",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "GTV",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-07-28",
+              "mediaId": "851694b8-2de1-4f9b-98f0-19841d6abcea",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "851694b8-2de1-4f9b-98f0-19841d6abcea",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": false,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
               "id": 6172,
               "name": "Audacy App 92.3 HD2",
               "type": "FM",
@@ -73564,6 +74307,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -73954,6 +74709,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -74057,8 +74824,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 36,
@@ -74369,6 +75136,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -74472,8 +75251,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 36,
@@ -74820,6 +75599,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -74923,8 +75714,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 36,
@@ -75235,6 +76026,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -75338,8 +76141,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 36,
@@ -75686,6 +76489,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 4,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -75859,8 +76674,8 @@
               },
               "leagueRecord": {
                 "wins": 15,
-                "losses": 14,
-                "pct": ".517"
+                "losses": 15,
+                "pct": ".500"
               },
               "splitSquad": false,
               "seriesNumber": 37,
@@ -75908,6 +76723,43 @@
             "season": "2026"
           },
           "broadcasts": [
+            {
+              "id": 6218,
+              "name": "Guardians.TV Presented by Progressive",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "CLEG",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-04",
+              "mediaId": "c34576a5-a284-4435-b0ff-2a6b90588fb8",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "c34576a5-a284-4435-b0ff-2a6b90588fb8",
+              "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-08-04T18:00:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
             {
               "id": 191,
               "name": "WTAM 1100",
@@ -75965,43 +76817,6 @@
               },
               "gameDateBroadcastGuid": "2018c7d1-11ac-4828-a677-69e23422a77f",
               "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-08-04T18:00:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
-              "id": 6218,
-              "name": "Guardians.TV Presented by Progressive",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "CLEG",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-04",
-              "mediaId": "c34576a5-a284-4435-b0ff-2a6b90588fb8",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "c34576a5-a284-4435-b0ff-2a6b90588fb8",
-              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-08-04T18:00:00-04:00",
@@ -76192,6 +77007,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -76365,8 +77192,8 @@
               },
               "leagueRecord": {
                 "wins": 15,
-                "losses": 14,
-                "pct": ".517"
+                "losses": 15,
+                "pct": ".500"
               },
               "splitSquad": false,
               "seriesNumber": 37,
@@ -76442,43 +77269,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 741,
-              "name": "SNY",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SNY",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-05",
-              "mediaId": "aeee4786-1666-40f9-ba97-77e8a19e05fb",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "aeee4786-1666-40f9-ba97-77e8a19e05fb",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-08-05T18:00:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6218,
               "name": "Guardians.TV Presented by Progressive",
               "type": "TV",
@@ -76508,6 +77298,43 @@
               },
               "gameDateBroadcastGuid": "db48ff43-7ebf-4214-92b1-1edecec26365",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-08-05T18:00:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 741,
+              "name": "SNY",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SNY",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-05",
+              "mediaId": "aeee4786-1666-40f9-ba97-77e8a19e05fb",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "aeee4786-1666-40f9-ba97-77e8a19e05fb",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-08-05T18:00:00-04:00",
@@ -76661,6 +77488,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -76835,8 +77674,8 @@
               },
               "leagueRecord": {
                 "wins": 15,
-                "losses": 14,
-                "pct": ".517"
+                "losses": 15,
+                "pct": ".500"
               },
               "splitSquad": false,
               "seriesNumber": 37,
@@ -77290,8 +78129,8 @@
               },
               "leagueRecord": {
                 "wins": 16,
-                "losses": 12,
-                "pct": ".571"
+                "losses": 13,
+                "pct": ".552"
               },
               "splitSquad": false,
               "seriesNumber": 38,
@@ -77691,8 +78530,8 @@
               },
               "leagueRecord": {
                 "wins": 16,
-                "losses": 12,
-                "pct": ".571"
+                "losses": 13,
+                "pct": ".552"
               },
               "splitSquad": false,
               "seriesNumber": 38,
@@ -78092,8 +78931,8 @@
               },
               "leagueRecord": {
                 "wins": 16,
-                "losses": 12,
-                "pct": ".571"
+                "losses": 13,
+                "pct": ".552"
               },
               "splitSquad": false,
               "seriesNumber": 38,
@@ -78307,6 +79146,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -78531,12 +79382,12 @@
           },
           "broadcasts": [
             {
-              "id": 6458,
-              "name": "BravesVision",
+              "id": 741,
+              "name": "SNY",
               "type": "TV",
               "language": "en",
               "isNational": false,
-              "callSign": "BravesVsn",
+              "callSign": "SNY",
               "videoResolution": {
                 "code": "FHD",
                 "resolutionShort": "FHD",
@@ -78553,13 +79404,13 @@
                 "mediaStateText": "Media Off"
               },
               "broadcastDate": "2026-08-10",
-              "mediaId": "453029a6-54e8-424c-b6f3-caade9948372",
+              "mediaId": "1c2c471b-b305-4050-a88c-135766df4200",
               "colorSpace": {
                 "code": "SDR",
                 "colorSpaceFull": "Standard Dynamic Range"
               },
-              "gameDateBroadcastGuid": "453029a6-54e8-424c-b6f3-caade9948372",
-              "homeAway": "home",
+              "gameDateBroadcastGuid": "1c2c471b-b305-4050-a88c-135766df4200",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-08-10T18:30:00-04:00",
@@ -78595,12 +79446,12 @@
               "freeGameStatus": false
             },
             {
-              "id": 741,
-              "name": "SNY",
+              "id": 6458,
+              "name": "BravesVision",
               "type": "TV",
               "language": "en",
               "isNational": false,
-              "callSign": "SNY",
+              "callSign": "BravesVsn",
               "videoResolution": {
                 "code": "FHD",
                 "resolutionShort": "FHD",
@@ -78617,13 +79468,13 @@
                 "mediaStateText": "Media Off"
               },
               "broadcastDate": "2026-08-10",
-              "mediaId": "1c2c471b-b305-4050-a88c-135766df4200",
+              "mediaId": "453029a6-54e8-424c-b6f3-caade9948372",
               "colorSpace": {
                 "code": "SDR",
                 "colorSpaceFull": "Standard Dynamic Range"
               },
-              "gameDateBroadcastGuid": "1c2c471b-b305-4050-a88c-135766df4200",
-              "homeAway": "away",
+              "gameDateBroadcastGuid": "453029a6-54e8-424c-b6f3-caade9948372",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-08-10T18:30:00-04:00",
@@ -78723,6 +79574,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -79176,6 +80039,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -79399,33 +80274,6 @@
           },
           "broadcasts": [
             {
-              "id": 4024,
-              "name": "680 AM/93.7 FM The Fan",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "680 AM",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-12",
-              "mediaId": "d14bdd9c-dff7-4ff7-beb9-518f9b8eaf31",
-              "gameDateBroadcastGuid": "d14bdd9c-dff7-4ff7-beb9-518f9b8eaf31",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -79459,6 +80307,33 @@
               "availableForStreaming": true,
               "preGameShow": "2026-08-12T18:30:00-04:00",
               "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 4024,
+              "name": "680 AM/93.7 FM The Fan",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "680 AM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-12",
+              "mediaId": "d14bdd9c-dff7-4ff7-beb9-518f9b8eaf31",
+              "gameDateBroadcastGuid": "d14bdd9c-dff7-4ff7-beb9-518f9b8eaf31",
+              "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -79591,6 +80466,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -79888,33 +80775,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 4044,
-              "name": "WJFK 106.7 The Fan",
-              "type": "FM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "106.7 FM",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-14",
-              "mediaId": "4759b1f5-f1e8-408d-a503-0765a381c207",
-              "gameDateBroadcastGuid": "4759b1f5-f1e8-408d-a503-0765a381c207",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 236,
               "name": "Audacy Mets Radio WHSQ 880AM",
               "type": "AM",
@@ -79935,6 +80795,33 @@
               "mediaId": "f9dcf06a-b812-49d6-85f2-a5275adafee8",
               "gameDateBroadcastGuid": "f9dcf06a-b812-49d6-85f2-a5275adafee8",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 4044,
+              "name": "WJFK 106.7 The Fan",
+              "type": "FM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "106.7 FM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-14",
+              "mediaId": "4759b1f5-f1e8-408d-a503-0765a381c207",
+              "gameDateBroadcastGuid": "4759b1f5-f1e8-408d-a503-0765a381c207",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -79979,6 +80866,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -80440,6 +81339,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -80736,33 +81647,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 236,
-              "name": "Audacy Mets Radio WHSQ 880AM",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "WHSQ 880AM",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-16",
-              "mediaId": "be493416-5598-4749-9836-6cdcdbeae9c8",
-              "gameDateBroadcastGuid": "be493416-5598-4749-9836-6cdcdbeae9c8",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 4044,
               "name": "WJFK 106.7 The Fan",
               "type": "FM",
@@ -80783,6 +81667,33 @@
               "mediaId": "fd470898-db5b-4574-bdb9-32969e34d6b3",
               "gameDateBroadcastGuid": "fd470898-db5b-4574-bdb9-32969e34d6b3",
               "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 236,
+              "name": "Audacy Mets Radio WHSQ 880AM",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "WHSQ 880AM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-16",
+              "mediaId": "be493416-5598-4749-9836-6cdcdbeae9c8",
+              "gameDateBroadcastGuid": "be493416-5598-4749-9836-6cdcdbeae9c8",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -80827,6 +81738,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -80930,9 +81853,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 9,
-                "pct": ".667"
+                "pct": ".679"
               },
               "splitSquad": false,
               "seriesNumber": 41,
@@ -81178,33 +82101,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 275,
-              "name": "XEMO 860",
-              "type": "AM",
-              "language": "es",
-              "isNational": false,
-              "callSign": "XEMO",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-17",
-              "mediaId": "77c83123-8113-4530-960a-e1b80d20169f",
-              "gameDateBroadcastGuid": "77c83123-8113-4530-960a-e1b80d20169f",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6172,
               "name": "Audacy App 92.3 HD2",
               "type": "FM",
@@ -81225,6 +82121,33 @@
               "mediaId": "039382f8-00d7-4ef3-b5f1-0787ad18b600",
               "gameDateBroadcastGuid": "039382f8-00d7-4ef3-b5f1-0787ad18b600",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 275,
+              "name": "XEMO 860",
+              "type": "AM",
+              "language": "es",
+              "isNational": false,
+              "callSign": "XEMO",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-17",
+              "mediaId": "77c83123-8113-4530-960a-e1b80d20169f",
+              "gameDateBroadcastGuid": "77c83123-8113-4530-960a-e1b80d20169f",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -81357,9 +82280,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 9,
-                "pct": ".667"
+                "pct": ".679"
               },
               "splitSquad": false,
               "seriesNumber": 41,
@@ -81551,33 +82474,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 5296,
-              "name": "KWFN 97.3",
-              "type": "FM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "KWFN",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-18",
-              "mediaId": "148ff018-c665-464e-a460-40770052ff29",
-              "gameDateBroadcastGuid": "148ff018-c665-464e-a460-40770052ff29",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 236,
               "name": "Audacy Mets Radio WHSQ 880AM",
               "type": "AM",
@@ -81598,6 +82494,33 @@
               "mediaId": "4596dd06-0128-4328-8595-9ee87c47098a",
               "gameDateBroadcastGuid": "4596dd06-0128-4328-8595-9ee87c47098a",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 5296,
+              "name": "KWFN 97.3",
+              "type": "FM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "KWFN",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-18",
+              "mediaId": "148ff018-c665-464e-a460-40770052ff29",
+              "gameDateBroadcastGuid": "148ff018-c665-464e-a460-40770052ff29",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -81784,9 +82707,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 9,
-                "pct": ".667"
+                "pct": ".679"
               },
               "splitSquad": false,
               "seriesNumber": 41,
@@ -82281,9 +83204,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 11,
+                "wins": 12,
                 "losses": 17,
-                "pct": ".393"
+                "pct": ".414"
               },
               "splitSquad": false,
               "seriesNumber": 42,
@@ -82525,6 +83448,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -82697,9 +83632,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 11,
+                "wins": 12,
                 "losses": 17,
-                "pct": ".393"
+                "pct": ".414"
               },
               "splitSquad": false,
               "seriesNumber": 42,
@@ -82941,6 +83876,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -83113,9 +84060,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 11,
+                "wins": 12,
                 "losses": 17,
-                "pct": ".393"
+                "pct": ".414"
               },
               "splitSquad": false,
               "seriesNumber": 42,
@@ -83356,6 +84303,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -83980,42 +84939,6 @@
           },
           "broadcasts": [
             {
-              "id": 6216,
-              "name": "Brewers.TV",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "BREW",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-26",
-              "mediaId": "12c0691a-aa39-427b-9819-ba1eacd469ac",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "12c0691a-aa39-427b-9819-ba1eacd469ac",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -84048,6 +84971,42 @@
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-08-26T18:30:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 6216,
+              "name": "Brewers.TV",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "BREW",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-26",
+              "mediaId": "12c0691a-aa39-427b-9819-ba1eacd469ac",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "12c0691a-aa39-427b-9819-ba1eacd469ac",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
               "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
@@ -84973,6 +85932,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -85270,33 +86241,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 236,
-              "name": "Audacy Mets Radio WHSQ 880AM",
-              "type": "AM",
-              "language": "en",
-              "isNational": false,
-              "callSign": "WHSQ 880AM",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-29",
-              "mediaId": "cc84de18-0443-4844-bc53-838ded263073",
-              "gameDateBroadcastGuid": "cc84de18-0443-4844-bc53-838ded263073",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 159,
               "name": "KBME 790 AM/94.5 FM HD-2",
               "type": "AM",
@@ -85317,6 +86261,33 @@
               "mediaId": "2beb31db-297f-4c54-8290-4462058a75f5",
               "gameDateBroadcastGuid": "2beb31db-297f-4c54-8290-4462058a75f5",
               "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 236,
+              "name": "Audacy Mets Radio WHSQ 880AM",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "WHSQ 880AM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-29",
+              "mediaId": "cc84de18-0443-4844-bc53-838ded263073",
+              "gameDateBroadcastGuid": "cc84de18-0443-4844-bc53-838ded263073",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -85388,6 +86359,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -85803,6 +86786,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -85975,9 +86970,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 16,
+                "wins": 17,
                 "losses": 11,
-                "pct": ".593"
+                "pct": ".607"
               },
               "splitSquad": false,
               "seriesNumber": 45,
@@ -86154,33 +87149,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 6172,
-              "name": "Audacy App 92.3 HD2",
-              "type": "FM",
-              "language": "es",
-              "isNational": false,
-              "callSign": "Audacy",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-08-31",
-              "mediaId": "8eead548-a99a-452e-af01-246aab948cca",
-              "gameDateBroadcastGuid": "8eead548-a99a-452e-af01-246aab948cca",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6075,
               "name": "WQBN/1300AM",
               "type": "AM",
@@ -86206,6 +87174,33 @@
               "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
+            },
+            {
+              "id": 6172,
+              "name": "Audacy App 92.3 HD2",
+              "type": "FM",
+              "language": "es",
+              "isNational": false,
+              "callSign": "Audacy",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-08-31",
+              "mediaId": "8eead548-a99a-452e-af01-246aab948cca",
+              "gameDateBroadcastGuid": "8eead548-a99a-452e-af01-246aab948cca",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
             }
           ],
           "content": {
@@ -86218,6 +87213,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -86391,9 +87398,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 16,
+                "wins": 17,
                 "losses": 11,
-                "pct": ".593"
+                "pct": ".607"
               },
               "splitSquad": false,
               "seriesNumber": 45,
@@ -86570,33 +87577,6 @@
               "freeGameStatus": false
             },
             {
-              "id": 6172,
-              "name": "Audacy App 92.3 HD2",
-              "type": "FM",
-              "language": "es",
-              "isNational": false,
-              "callSign": "Audacy",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-09-01",
-              "mediaId": "47cf79f5-8994-4db7-ab58-7e0901c10732",
-              "gameDateBroadcastGuid": "47cf79f5-8994-4db7-ab58-7e0901c10732",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6075,
               "name": "WQBN/1300AM",
               "type": "AM",
@@ -86622,6 +87602,33 @@
               "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
+            },
+            {
+              "id": 6172,
+              "name": "Audacy App 92.3 HD2",
+              "type": "FM",
+              "language": "es",
+              "isNational": false,
+              "callSign": "Audacy",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-09-01",
+              "mediaId": "47cf79f5-8994-4db7-ab58-7e0901c10732",
+              "gameDateBroadcastGuid": "47cf79f5-8994-4db7-ab58-7e0901c10732",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
             }
           ],
           "content": {
@@ -86634,6 +87641,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -86807,9 +87826,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 16,
+                "wins": 17,
                 "losses": 11,
-                "pct": ".593"
+                "pct": ".607"
               },
               "splitSquad": false,
               "seriesNumber": 45,
@@ -86858,43 +87877,6 @@
           },
           "broadcasts": [
             {
-              "id": 741,
-              "name": "SNY",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SNY",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-09-02",
-              "mediaId": "b6c7802e-c28f-477a-b2a2-dd35bf95210c",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "b6c7802e-c28f-477a-b2a2-dd35bf95210c",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-09-02T18:00:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6416,
               "name": "Rays.TV",
               "type": "TV",
@@ -86924,6 +87906,43 @@
               },
               "gameDateBroadcastGuid": "5a7cdba5-d769-41a5-bc35-15e5fb15b428",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-09-02T18:00:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 741,
+              "name": "SNY",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SNY",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-09-02",
+              "mediaId": "b6c7802e-c28f-477a-b2a2-dd35bf95210c",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "b6c7802e-c28f-477a-b2a2-dd35bf95210c",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-09-02T18:00:00-04:00",
@@ -87050,6 +88069,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -87467,6 +88498,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -87882,6 +88925,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -88299,6 +89354,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -88472,8 +89539,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 47,
@@ -88900,8 +89967,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 47,
@@ -89328,8 +90395,8 @@
               },
               "leagueRecord": {
                 "wins": 13,
-                "losses": 15,
-                "pct": ".464"
+                "losses": 16,
+                "pct": ".448"
               },
               "splitSquad": false,
               "seriesNumber": 47,
@@ -89755,9 +90822,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 10,
-                "pct": ".643"
+                "pct": ".655"
               },
               "splitSquad": false,
               "seriesNumber": 48,
@@ -89998,6 +91065,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -90170,9 +91249,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 10,
-                "pct": ".643"
+                "pct": ".655"
               },
               "splitSquad": false,
               "seriesNumber": 48,
@@ -90413,6 +91492,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -90585,9 +91676,9 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 18,
+                "wins": 19,
                 "losses": 10,
-                "pct": ".643"
+                "pct": ".655"
               },
               "splitSquad": false,
               "seriesNumber": 48,
@@ -90827,6 +91918,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -91244,6 +92347,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -91660,6 +92775,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -92002,6 +93129,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -92412,6 +93551,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -92829,6 +93980,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -93244,6 +94407,18 @@
             "highlights": {},
             "summary": {},
             "gameNotes": {}
+          },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
           },
           "gameNumber": 1,
           "publicFacing": true,
@@ -93661,6 +94836,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 4,
+            "totalGames": 4,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -93834,8 +95021,8 @@
               },
               "leagueRecord": {
                 "wins": 14,
-                "losses": 14,
-                "pct": ".500"
+                "losses": 15,
+                "pct": ".483"
               },
               "splitSquad": false,
               "seriesNumber": 51,
@@ -94077,6 +95264,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 1,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -94250,8 +95449,8 @@
               },
               "leagueRecord": {
                 "wins": 14,
-                "losses": 14,
-                "pct": ".500"
+                "losses": 15,
+                "pct": ".483"
               },
               "splitSquad": false,
               "seriesNumber": 51,
@@ -94493,6 +95692,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 2,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -94666,8 +95877,8 @@
               },
               "leagueRecord": {
                 "wins": 14,
-                "losses": 14,
-                "pct": ".500"
+                "losses": 15,
+                "pct": ".483"
               },
               "splitSquad": false,
               "seriesNumber": 51,
@@ -94909,6 +96120,18 @@
             "summary": {},
             "gameNotes": {}
           },
+          "seriesStatus": {
+            "gameNumber": 3,
+            "totalGames": 3,
+            "isTied": true,
+            "isOver": false,
+            "wins": 0,
+            "losses": 0,
+            "description": "Regular Season",
+            "shortDescription": "Season",
+            "shortName": "Season",
+            "abbreviation": "RS"
+          },
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -95132,43 +96355,6 @@
           },
           "broadcasts": [
             {
-              "id": 186,
-              "name": "WPIX",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "WPIX",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-09-25",
-              "mediaId": "d58610eb-b73d-4116-ae17-487cc56f31a5",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "d58610eb-b73d-4116-ae17-487cc56f31a5",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-09-25T18:00:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6382,
               "name": "Nationals.TV",
               "type": "TV",
@@ -95206,16 +96392,21 @@
               "freeGameStatus": false
             },
             {
-              "id": 236,
-              "name": "Audacy Mets Radio WHSQ 880AM",
-              "type": "AM",
+              "id": 186,
+              "name": "WPIX",
+              "type": "TV",
               "language": "en",
               "isNational": false,
-              "callSign": "WHSQ 880AM",
+              "callSign": "WPIX",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
               "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -95223,12 +96414,17 @@
                 "mediaStateText": "Media Off"
               },
               "broadcastDate": "2026-09-25",
-              "mediaId": "db2cae24-a5bd-4c0e-a809-3ddbc6324af6",
-              "gameDateBroadcastGuid": "db2cae24-a5bd-4c0e-a809-3ddbc6324af6",
+              "mediaId": "d58610eb-b73d-4116-ae17-487cc56f31a5",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "d58610eb-b73d-4116-ae17-487cc56f31a5",
               "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
-              "postGameShow": false,
+              "preGameShow": "2026-09-25T18:00:00-04:00",
+              "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -95253,6 +96449,33 @@
               "mediaId": "98d065e9-2393-4301-a758-6567d0eb7fd4",
               "gameDateBroadcastGuid": "98d065e9-2393-4301-a758-6567d0eb7fd4",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 236,
+              "name": "Audacy Mets Radio WHSQ 880AM",
+              "type": "AM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "WHSQ 880AM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-09-25",
+              "mediaId": "db2cae24-a5bd-4c0e-a809-3ddbc6324af6",
+              "gameDateBroadcastGuid": "db2cae24-a5bd-4c0e-a809-3ddbc6324af6",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -95533,43 +96756,6 @@
           },
           "broadcasts": [
             {
-              "id": 741,
-              "name": "SNY",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SNY",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-09-26",
-              "mediaId": "595782b8-9a8f-434a-9c47-cf633db57701",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "595782b8-9a8f-434a-9c47-cf633db57701",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-09-26T15:30:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6382,
               "name": "Nationals.TV",
               "type": "TV",
@@ -95602,6 +96788,43 @@
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-09-26T15:45:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 741,
+              "name": "SNY",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SNY",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-09-26",
+              "mediaId": "595782b8-9a8f-434a-9c47-cf633db57701",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "595782b8-9a8f-434a-9c47-cf633db57701",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-09-26T15:30:00-04:00",
               "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
@@ -95934,43 +97157,6 @@
           },
           "broadcasts": [
             {
-              "id": 6382,
-              "name": "Nationals.TV",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "NATS",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
-              },
-              "broadcastDate": "2026-09-27",
-              "mediaId": "0634cfd2-ca67-4143-a156-b17f7618273c",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "0634cfd2-ca67-4143-a156-b17f7618273c",
-              "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-09-27T14:45:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -96008,16 +97194,21 @@
               "freeGameStatus": false
             },
             {
-              "id": 4044,
-              "name": "WJFK 106.7 The Fan",
-              "type": "FM",
+              "id": 6382,
+              "name": "Nationals.TV",
+              "type": "TV",
               "language": "en",
               "isNational": false,
-              "callSign": "106.7 FM",
+              "callSign": "NATS",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
               "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
               },
               "mediaState": {
                 "mediaStateId": 1,
@@ -96025,12 +97216,17 @@
                 "mediaStateText": "Media Off"
               },
               "broadcastDate": "2026-09-27",
-              "mediaId": "5860e0a4-4f7e-42d0-9973-987a4cf5cf32",
-              "gameDateBroadcastGuid": "5860e0a4-4f7e-42d0-9973-987a4cf5cf32",
+              "mediaId": "0634cfd2-ca67-4143-a156-b17f7618273c",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "0634cfd2-ca67-4143-a156-b17f7618273c",
               "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
-              "postGameShow": false,
+              "preGameShow": "2026-09-27T14:45:00-04:00",
+              "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -96055,6 +97251,33 @@
               "mediaId": "b69d6a2b-1062-46ff-81ec-7cf6ba52f1ed",
               "gameDateBroadcastGuid": "b69d6a2b-1062-46ff-81ec-7cf6ba52f1ed",
               "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 4044,
+              "name": "WJFK 106.7 The Fan",
+              "type": "FM",
+              "language": "en",
+              "isNational": false,
+              "callSign": "106.7 FM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
+              },
+              "broadcastDate": "2026-09-27",
+              "mediaId": "5860e0a4-4f7e-42d0-9973-987a4cf5cf32",
+              "gameDateBroadcastGuid": "5860e0a4-4f7e-42d0-9973-987a4cf5cf32",
+              "homeAway": "home",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
