@@ -121924,13 +121924,15 @@
                 "runs": 2,
                 "hits": 4,
                 "errors": 1,
-                "leftOnBase": 7
+                "leftOnBase": 7,
+                "isWinner": true
               },
               "away": {
                 "runs": 1,
                 "hits": 5,
                 "errors": 2,
-                "leftOnBase": 7
+                "leftOnBase": 7,
+                "isWinner": false
               }
             },
             "defense": {
@@ -122016,6 +122018,16 @@
                 "id": 701807,
                 "fullName": "Carson Benge",
                 "link": "/api/v1/people/701807"
+              },
+              "first": {
+                "id": 805999,
+                "fullName": "A.J. Ewing",
+                "link": "/api/v1/people/805999"
+              },
+              "second": {
+                "id": 676724,
+                "fullName": "Jared Young",
+                "link": "/api/v1/people/676724"
               },
               "pitcher": {
                 "id": 680702,
@@ -140174,15 +140186,15 @@
           "link": "/api/v1.1/game/823440/feed/live",
           "gameType": "R",
           "season": "2026",
-          "gameDate": "2026-07-16T19:10:00-04:00",
+          "gameDate": "2026-07-16T18:10:00-04:00",
           "officialDate": "2026-07-16",
           "status": {
-            "abstractGameState": "Preview",
-            "codedGameState": "S",
-            "detailedState": "Scheduled",
-            "statusCode": "S",
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
             "startTimeTBD": false,
-            "abstractGameCode": "P"
+            "abstractGameCode": "F"
           },
           "teams": {
             "away": {
@@ -140242,11 +140254,13 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
+              "score": 4,
+              "isWinner": true,
               "splitSquad": false,
               "seriesNumber": 32,
               "springLeague": {
@@ -140314,10 +140328,12 @@
               },
               "leagueRecord": {
                 "wins": 54,
-                "losses": 43,
+                "losses": 44,
                 "ties": 0,
-                "pct": ".557"
+                "pct": ".551"
               },
+              "score": 1,
+              "isWinner": false,
               "splitSquad": false,
               "seriesNumber": 32,
               "springLeague": {
@@ -140329,13 +140345,234 @@
             }
           },
           "linescore": {
+            "currentInning": 9,
+            "currentInningOrdinal": "9th",
+            "inningState": "Bottom",
+            "inningHalf": "Bottom",
+            "isTopInning": false,
             "scheduledInnings": 9,
-            "innings": [],
+            "innings": [
+              {
+                "num": 1,
+                "ordinalNum": "1st",
+                "home": {
+                  "runs": 0,
+                  "hits": 0,
+                  "errors": 0,
+                  "leftOnBase": 0
+                },
+                "away": {
+                  "runs": 0,
+                  "hits": 1,
+                  "errors": 0,
+                  "leftOnBase": 0
+                }
+              },
+              {
+                "num": 2,
+                "ordinalNum": "2nd",
+                "home": {
+                  "runs": 0,
+                  "hits": 0,
+                  "errors": 0,
+                  "leftOnBase": 0
+                },
+                "away": {
+                  "runs": 0,
+                  "hits": 1,
+                  "errors": 0,
+                  "leftOnBase": 1
+                }
+              },
+              {
+                "num": 3,
+                "ordinalNum": "3rd",
+                "home": {
+                  "runs": 0,
+                  "hits": 1,
+                  "errors": 0,
+                  "leftOnBase": 1
+                },
+                "away": {
+                  "runs": 1,
+                  "hits": 1,
+                  "errors": 0,
+                  "leftOnBase": 1
+                }
+              },
+              {
+                "num": 4,
+                "ordinalNum": "4th",
+                "home": {
+                  "runs": 0,
+                  "hits": 1,
+                  "errors": 0,
+                  "leftOnBase": 1
+                },
+                "away": {
+                  "runs": 0,
+                  "hits": 0,
+                  "errors": 0,
+                  "leftOnBase": 0
+                }
+              },
+              {
+                "num": 5,
+                "ordinalNum": "5th",
+                "home": {
+                  "runs": 0,
+                  "hits": 0,
+                  "errors": 0,
+                  "leftOnBase": 0
+                },
+                "away": {
+                  "runs": 0,
+                  "hits": 1,
+                  "errors": 0,
+                  "leftOnBase": 3
+                }
+              },
+              {
+                "num": 6,
+                "ordinalNum": "6th",
+                "home": {
+                  "runs": 0,
+                  "hits": 1,
+                  "errors": 1,
+                  "leftOnBase": 2
+                },
+                "away": {
+                  "runs": 0,
+                  "hits": 0,
+                  "errors": 1,
+                  "leftOnBase": 1
+                }
+              },
+              {
+                "num": 7,
+                "ordinalNum": "7th",
+                "home": {
+                  "runs": 0,
+                  "hits": 0,
+                  "errors": 0,
+                  "leftOnBase": 0
+                },
+                "away": {
+                  "runs": 2,
+                  "hits": 2,
+                  "errors": 0,
+                  "leftOnBase": 0
+                }
+              },
+              {
+                "num": 8,
+                "ordinalNum": "8th",
+                "home": {
+                  "runs": 1,
+                  "hits": 1,
+                  "errors": 0,
+                  "leftOnBase": 0
+                },
+                "away": {
+                  "runs": 0,
+                  "hits": 0,
+                  "errors": 0,
+                  "leftOnBase": 0
+                }
+              },
+              {
+                "num": 9,
+                "ordinalNum": "9th",
+                "home": {
+                  "runs": 0,
+                  "hits": 0,
+                  "errors": 0,
+                  "leftOnBase": 0
+                },
+                "away": {
+                  "runs": 1,
+                  "hits": 1,
+                  "errors": 0,
+                  "leftOnBase": 1
+                }
+              }
+            ],
             "teams": {
-              "home": {},
-              "away": {}
+              "home": {
+                "runs": 1,
+                "hits": 4,
+                "errors": 1,
+                "leftOnBase": 4
+              },
+              "away": {
+                "runs": 4,
+                "hits": 7,
+                "errors": 1,
+                "leftOnBase": 7
+              }
             },
             "defense": {
+              "pitcher": {
+                "id": 642207,
+                "fullName": "Devin Williams",
+                "link": "/api/v1/people/642207"
+              },
+              "catcher": {
+                "id": 682626,
+                "fullName": "Francisco Alvarez",
+                "link": "/api/v1/people/682626"
+              },
+              "first": {
+                "id": 676724,
+                "fullName": "Jared Young",
+                "link": "/api/v1/people/676724"
+              },
+              "second": {
+                "id": 683146,
+                "fullName": "Brett Baty",
+                "link": "/api/v1/people/683146"
+              },
+              "third": {
+                "id": 666182,
+                "fullName": "Bo Bichette",
+                "link": "/api/v1/people/666182"
+              },
+              "shortstop": {
+                "id": 596019,
+                "fullName": "Francisco Lindor",
+                "link": "/api/v1/people/596019"
+              },
+              "left": {
+                "id": 621438,
+                "fullName": "Tyrone Taylor",
+                "link": "/api/v1/people/621438"
+              },
+              "center": {
+                "id": 805999,
+                "fullName": "A.J. Ewing",
+                "link": "/api/v1/people/805999"
+              },
+              "right": {
+                "id": 701807,
+                "fullName": "Carson Benge",
+                "link": "/api/v1/people/701807"
+              },
+              "batter": {
+                "id": 666182,
+                "fullName": "Bo Bichette",
+                "link": "/api/v1/people/666182"
+              },
+              "onDeck": {
+                "id": 596019,
+                "fullName": "Francisco Lindor",
+                "link": "/api/v1/people/596019"
+              },
+              "inHole": {
+                "id": 701807,
+                "fullName": "Carson Benge",
+                "link": "/api/v1/people/701807"
+              },
+              "battingOrder": 3,
               "team": {
                 "id": 121,
                 "name": "New York Mets",
@@ -140343,12 +140580,36 @@
               }
             },
             "offense": {
+              "batter": {
+                "id": 664761,
+                "fullName": "Alec Bohm",
+                "link": "/api/v1/people/664761"
+              },
+              "onDeck": {
+                "id": 681082,
+                "fullName": "Bryson Stott",
+                "link": "/api/v1/people/681082"
+              },
+              "inHole": {
+                "id": 592663,
+                "fullName": "J.T. Realmuto",
+                "link": "/api/v1/people/592663"
+              },
+              "pitcher": {
+                "id": 686751,
+                "fullName": "Seth Johnson",
+                "link": "/api/v1/people/686751"
+              },
+              "battingOrder": 5,
               "team": {
                 "id": 143,
                 "name": "Philadelphia Phillies",
                 "link": "/api/v1/teams/143"
               }
-            }
+            },
+            "balls": 1,
+            "strikes": 3,
+            "outs": 3
           },
           "venue": {
             "id": 2681,
@@ -140418,9 +140679,9 @@
                 "availabilityText": "National"
               },
               "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
               },
               "broadcastDate": "2026-07-16",
               "mediaId": "a85458be-cd51-49c5-94b9-80bc7c0a71e4",
@@ -140445,9 +140706,9 @@
                 "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
               },
               "broadcastDate": "2026-07-16",
               "mediaId": "ad42a454-3f32-423b-97d1-48d6682617a4",
@@ -140472,9 +140733,9 @@
                 "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
               },
               "broadcastDate": "2026-07-16",
               "mediaId": "82d8db31-5f26-4505-9c7a-3ddc997372fa",
@@ -140499,9 +140760,9 @@
                 "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
               },
               "broadcastDate": "2026-07-16",
               "mediaId": "95eeb538-a178-4bc8-afaa-ada57709e08f",
@@ -140526,9 +140787,9 @@
                 "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
               },
               "broadcastDate": "2026-07-16",
               "mediaId": "aef78c2a-4fc8-41f1-a422-a0721b039d88",
@@ -140545,13 +140806,734 @@
             "link": "/api/v1/game/823440/content",
             "editorial": {},
             "media": {
+              "epgAlternate": [
+                {
+                  "items": [
+                    {
+                      "type": "video",
+                      "state": "A",
+                      "date": "2026-07-17T02:20:48.723Z",
+                      "id": "condensed-game-nym-phi-7-16-26",
+                      "headline": "Condensed Game: NYM@PHI - 7/16/26",
+                      "seoTitle": "",
+                      "slug": "condensed-game-nym-phi-7-16-26",
+                      "blurb": "Condensed Game: NYM@PHI - 7/16/26",
+                      "keywordsAll": [
+                        {
+                          "type": "taxonomy",
+                          "value": "international-feed",
+                          "displayName": "International Partner feed"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "eclat-feed",
+                          "displayName": "Eclat feed"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "condensed-game",
+                          "displayName": "condensed game"
+                        },
+                        {
+                          "type": "mlbtax",
+                          "value": "condensed_game",
+                          "displayName": "Condensed Game"
+                        },
+                        {
+                          "type": "subject",
+                          "value": "MLBCOM_CONDENSED_GAME",
+                          "displayName": "MLBCOM_CONDENSED_GAME"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "imagen-feed",
+                          "displayName": "Imagen feed"
+                        },
+                        {
+                          "type": "game",
+                          "value": "gamepk-823440",
+                          "displayName": "2026/07/16 nym@phi"
+                        },
+                        {
+                          "type": "game_pk",
+                          "value": "823440",
+                          "displayName": "2026/07/16 nym@phi"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "vod",
+                          "displayName": "vod"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "alexa",
+                          "displayName": "alexa"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "roku-vod",
+                          "displayName": "Roku VOD"
+                        },
+                        {
+                          "type": "team",
+                          "value": "teamid-121",
+                          "displayName": "New York Mets"
+                        },
+                        {
+                          "type": "team_id",
+                          "value": "121",
+                          "displayName": "New York Mets"
+                        },
+                        {
+                          "type": "team",
+                          "value": "teamid-143",
+                          "displayName": "Philadelphia Phillies"
+                        },
+                        {
+                          "type": "team_id",
+                          "value": "143",
+                          "displayName": "Philadelphia Phillies"
+                        }
+                      ],
+                      "keywordsDisplay": [
+                        {
+                          "type": "mlbtax",
+                          "value": "condensed_game",
+                          "displayName": "Condensed Game"
+                        },
+                        {
+                          "type": "subject",
+                          "value": "MLBCOM_CONDENSED_GAME",
+                          "displayName": "MLBCOM_CONDENSED_GAME"
+                        }
+                      ],
+                      "image": {
+                        "title": "Condensed Game: NYM@PHI - 7/16/26 - thumbnail",
+                        "altText": null,
+                        "templateUrl": "https://img.mlbstatic.com/mlb-images/image/upload/{formatInstructions}/mlb/sqxfmfraxp6zcjzfmu6p",
+                        "cuts": [
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 1920,
+                            "height": 1080,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_1080,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_1080,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_1080,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 1440,
+                            "height": 810,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_1440,h_810,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1440,h_810,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1440,h_810,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 1280,
+                            "height": 720,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_1280,h_720,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1280,h_720,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1280,h_720,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 960,
+                            "height": 540,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_960,h_540,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_960,h_540,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_960,h_540,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 800,
+                            "height": 448,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_800,h_448,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_800,h_448,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_800,h_448,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 720,
+                            "height": 405,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_720,h_405,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_720,h_405,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_720,h_405,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 684,
+                            "height": 385,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_684,h_385,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_684,h_385,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_684,h_385,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 640,
+                            "height": 360,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 496,
+                            "height": 279,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_496,h_279,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_496,h_279,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_496,h_279,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 480,
+                            "height": 270,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_480,h_270,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_480,h_270,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_480,h_270,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 430,
+                            "height": 242,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_430,h_242,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_430,h_242,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_430,h_242,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 400,
+                            "height": 224,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_400,h_224,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_400,h_224,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_400,h_224,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 320,
+                            "height": 180,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_320,h_180,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_320,h_180,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_320,h_180,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 270,
+                            "height": 154,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_270,h_154,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_270,h_154,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_270,h_154,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 248,
+                            "height": 138,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_248,h_138,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_248,h_138,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_248,h_138,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 215,
+                            "height": 121,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_215,h_121,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_215,h_121,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_215,h_121,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 209,
+                            "height": 118,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_209,h_118,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_209,h_118,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_209,h_118,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 135,
+                            "height": 77,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_135,h_77,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_135,h_77,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_135,h_77,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 124,
+                            "height": 70,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_124,h_70,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_124,h_70,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_124,h_70,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 222,
+                            "height": 168,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_222,h_168,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_222,h_168,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_222,h_168,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 192,
+                            "height": 144,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_192,h_144,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_192,h_144,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_192,h_144,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 148,
+                            "height": 112,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_148,h_112,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_148,h_112,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_148,h_112,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 96,
+                            "height": 72,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_96,h_72,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_96,h_72,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_96,h_72,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 74,
+                            "height": 56,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_74,h_56,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_74,h_56,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_74,h_56,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          },
+                          {
+                            "aspectRatio": "64:27",
+                            "width": 1920,
+                            "height": 810,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_810,f_jpg,c_fill,g_auto/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_810,f_jpg,c_fill,g_auto,dpr_2.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_810,f_jpg,c_fill,g_auto,dpr_3.0/mlb/sqxfmfraxp6zcjzfmu6p.jpg"
+                          }
+                        ]
+                      },
+                      "noIndex": false,
+                      "mediaPlaybackId": "a1306255-384dcac6-95f20ed7-csvm-diamondgcp-asset",
+                      "title": "Condensed Game: NYM@PHI - 7/16/26",
+                      "kicker": "null",
+                      "description": "Condensed Game: Francisco Alvarez and the Mets take on Trea Turner and the Phillies on July 16, 2026",
+                      "duration": "00:12:29",
+                      "mediaPlaybackUrl": "",
+                      "playbacks": [
+                        {
+                          "name": "hlsCloud",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/a1306255-384dcac6-95f20ed7-csvm-diamondgcp-asset.m3u8",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "HTTP_CLOUD_WIRED",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/a1306255-384dcac6-95f20ed7-csvm-diamondgcp-asset.m3u8",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "HTTP_CLOUD_WIRED_60",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/a1306255-384dcac6-95f20ed7-csvm-diamondgcp-asset.m3u8",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "mp4Avc",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/a1306255-384dcac6-95f20ed7-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "highBit",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/a1306255-384dcac6-95f20ed7-csvm-diamondgcp-asset_1280x720_59_16000K.mp4",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "trickplay",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/a1306255-384dcac6-95f20ed7-csvm-diamondgcp-asset_320x180/05s.%.jpg",
+                          "width": "",
+                          "height": ""
+                        }
+                      ],
+                      "cclocationVtt": "https://mlb-cuts-diamond.mlb.com/FORGE/WEBVTT/2026/2026-07/16/20260716NYM-PHI-CG-V3_CC.c3po.vtt"
+                    }
+                  ],
+                  "title": "Extended Highlights"
+                },
+                {
+                  "items": [
+                    {
+                      "type": "video",
+                      "state": "A",
+                      "date": "2026-07-17T02:29:48.891Z",
+                      "id": "francisco-alvarez-belts-two-homers-in-mets-4-1-win",
+                      "headline": "Francisco Alvarez belts two homers in Mets' 4-1 win",
+                      "seoTitle": "",
+                      "slug": "francisco-alvarez-belts-two-homers-in-mets-4-1-win",
+                      "blurb": "Francisco Alvarez belts two homers in Mets' 4-1 win",
+                      "keywordsAll": [
+                        {
+                          "type": "taxonomy",
+                          "value": "international-feed",
+                          "displayName": "International Partner feed"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "eclat-feed",
+                          "displayName": "Eclat feed"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "game-recap",
+                          "displayName": "game recap"
+                        },
+                        {
+                          "type": "mlbtax",
+                          "value": "mlb_recap",
+                          "displayName": "Game Recap"
+                        },
+                        {
+                          "type": "subject",
+                          "value": "MLBCOM_GAME_RECAP",
+                          "displayName": "MLBCOM_GAME_RECAP"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "3-yahoo-ads-feed",
+                          "displayName": "3-Yahoo Ads Feed"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "apple-news",
+                          "displayName": "Apple News"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "send-to-news-mlb-feed",
+                          "displayName": "Send To News MLB feed"
+                        },
+                        {
+                          "type": "game",
+                          "value": "gamepk-823440",
+                          "displayName": "2026/07/16 nym@phi"
+                        },
+                        {
+                          "type": "game_pk",
+                          "value": "823440",
+                          "displayName": "2026/07/16 nym@phi"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "vod",
+                          "displayName": "vod"
+                        },
+                        {
+                          "type": "taxonomy",
+                          "value": "alexa",
+                          "displayName": "alexa"
+                        },
+                        {
+                          "type": "team",
+                          "value": "teamid-121",
+                          "displayName": "New York Mets"
+                        },
+                        {
+                          "type": "team_id",
+                          "value": "121",
+                          "displayName": "New York Mets"
+                        },
+                        {
+                          "type": "team",
+                          "value": "teamid-143",
+                          "displayName": "Philadelphia Phillies"
+                        },
+                        {
+                          "type": "team_id",
+                          "value": "143",
+                          "displayName": "Philadelphia Phillies"
+                        }
+                      ],
+                      "keywordsDisplay": [
+                        {
+                          "type": "mlbtax",
+                          "value": "mlb_recap",
+                          "displayName": "Game Recap"
+                        },
+                        {
+                          "type": "subject",
+                          "value": "MLBCOM_GAME_RECAP",
+                          "displayName": "MLBCOM_GAME_RECAP"
+                        }
+                      ],
+                      "image": {
+                        "title": "Francisco Alvarez belts two homers in Mets' 4-1 win - thumbnail",
+                        "altText": null,
+                        "templateUrl": "https://img.mlbstatic.com/mlb-images/image/upload/{formatInstructions}/mlb/cq4ebdrctkanirx8fagx",
+                        "cuts": [
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 1920,
+                            "height": 1080,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_1080,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_1080,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_1080,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 1440,
+                            "height": 810,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_1440,h_810,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1440,h_810,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1440,h_810,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 1280,
+                            "height": 720,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_1280,h_720,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1280,h_720,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1280,h_720,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 960,
+                            "height": 540,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_960,h_540,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_960,h_540,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_960,h_540,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 800,
+                            "height": 448,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_800,h_448,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_800,h_448,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_800,h_448,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 720,
+                            "height": 405,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_720,h_405,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_720,h_405,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_720,h_405,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 684,
+                            "height": 385,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_684,h_385,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_684,h_385,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_684,h_385,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 640,
+                            "height": 360,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_640,h_360,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 496,
+                            "height": 279,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_496,h_279,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_496,h_279,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_496,h_279,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 480,
+                            "height": 270,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_480,h_270,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_480,h_270,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_480,h_270,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 430,
+                            "height": 242,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_430,h_242,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_430,h_242,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_430,h_242,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 400,
+                            "height": 224,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_400,h_224,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_400,h_224,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_400,h_224,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 320,
+                            "height": 180,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_320,h_180,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_320,h_180,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_320,h_180,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 270,
+                            "height": 154,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_270,h_154,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_270,h_154,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_270,h_154,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 248,
+                            "height": 138,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_248,h_138,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_248,h_138,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_248,h_138,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 215,
+                            "height": 121,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_215,h_121,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_215,h_121,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_215,h_121,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 209,
+                            "height": 118,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_209,h_118,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_209,h_118,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_209,h_118,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 135,
+                            "height": 77,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_135,h_77,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_135,h_77,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_135,h_77,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "16:9",
+                            "width": 124,
+                            "height": 70,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_124,h_70,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_124,h_70,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_124,h_70,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 222,
+                            "height": 168,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_222,h_168,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_222,h_168,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_222,h_168,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 192,
+                            "height": 144,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_192,h_144,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_192,h_144,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_192,h_144,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 148,
+                            "height": 112,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_148,h_112,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_148,h_112,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_148,h_112,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 96,
+                            "height": 72,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_96,h_72,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_96,h_72,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_96,h_72,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "4:3",
+                            "width": 74,
+                            "height": 56,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_74,h_56,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_74,h_56,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_74,h_56,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          },
+                          {
+                            "aspectRatio": "64:27",
+                            "width": 1920,
+                            "height": 810,
+                            "src": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_810,f_jpg,c_fill,g_auto/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at2x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_810,f_jpg,c_fill,g_auto,dpr_2.0/mlb/cq4ebdrctkanirx8fagx.jpg",
+                            "at3x": "https://img.mlbstatic.com/mlb-images/image/upload/w_1920,h_810,f_jpg,c_fill,g_auto,dpr_3.0/mlb/cq4ebdrctkanirx8fagx.jpg"
+                          }
+                        ]
+                      },
+                      "noIndex": false,
+                      "mediaPlaybackId": "fb5343f2-a5749ad5-39b4b8b5-csvm-diamondgcp-asset",
+                      "title": "Francisco Alvarez belts two homers in Mets' 4-1 win",
+                      "kicker": "null",
+                      "description": "Francisco Alvarez, Brett Baty hit back-to-back home runs and Christian Scott strikes out seven in his scoreless start to lead the Mets' 4-1 win over the Phillies",
+                      "duration": "00:06:30",
+                      "mediaPlaybackUrl": "",
+                      "playbacks": [
+                        {
+                          "name": "hlsCloud",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/fb5343f2-a5749ad5-39b4b8b5-csvm-diamondgcp-asset.m3u8",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "HTTP_CLOUD_WIRED",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/fb5343f2-a5749ad5-39b4b8b5-csvm-diamondgcp-asset.m3u8",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "HTTP_CLOUD_WIRED_60",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/fb5343f2-a5749ad5-39b4b8b5-csvm-diamondgcp-asset.m3u8",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "mp4Avc",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/fb5343f2-a5749ad5-39b4b8b5-csvm-diamondgcp-asset_1280x720_59_4000K.mp4",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "highBit",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/fb5343f2-a5749ad5-39b4b8b5-csvm-diamondgcp-asset_1280x720_59_16000K.mp4",
+                          "width": "",
+                          "height": ""
+                        },
+                        {
+                          "name": "trickplay",
+                          "url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/16/fb5343f2-a5749ad5-39b4b8b5-csvm-diamondgcp-asset_320x180/05s.%.jpg",
+                          "width": "",
+                          "height": ""
+                        }
+                      ],
+                      "cclocationVtt": "https://mlb-cuts-diamond.mlb.com/FORGE/WEBVTT/2026/2026-07/16/20260716NYM-PHI-WINNING-RECAP-V2_CC.c3po.vtt"
+                    }
+                  ],
+                  "title": "Daily Recap"
+                }
+              ],
               "freeGame": false,
               "enhancedGame": false
             },
             "highlights": {},
             "summary": {
               "hasPreviewArticle": false,
-              "hasRecapArticle": false,
+              "hasRecapArticle": true,
               "hasWrapArticle": false,
               "hasHighlightsVideo": true
             },
@@ -140560,15 +141542,41 @@
           "seriesStatus": {
             "gameNumber": 1,
             "totalGames": 3,
-            "isTied": true,
+            "isTied": false,
             "isOver": false,
-            "wins": 0,
+            "wins": 1,
             "losses": 0,
+            "winningTeam": {
+              "springLeague": {
+                "id": 115,
+                "name": "Grapefruit League",
+                "link": "/api/v1/league/115",
+                "abbreviation": "GL"
+              },
+              "allStarStatus": "N",
+              "id": 121,
+              "name": "New York Mets",
+              "link": "/api/v1/teams/121"
+            },
+            "losingTeam": {
+              "springLeague": {
+                "id": 115,
+                "name": "Grapefruit League",
+                "link": "/api/v1/league/115",
+                "abbreviation": "GL"
+              },
+              "allStarStatus": "N",
+              "id": 143,
+              "name": "Philadelphia Phillies",
+              "link": "/api/v1/teams/143"
+            },
             "description": "Regular Season",
             "shortDescription": "Season",
+            "result": "NYM leads 1-0",
             "shortName": "Season",
             "abbreviation": "RS"
           },
+          "isTie": false,
           "gameNumber": 1,
           "publicFacing": true,
           "doubleHeader": "N",
@@ -140672,10 +141680,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 32,
@@ -140744,9 +141752,9 @@
               },
               "leagueRecord": {
                 "wins": 54,
-                "losses": 43,
+                "losses": 44,
                 "ties": 0,
-                "pct": ".557"
+                "pct": ".551"
               },
               "splitSquad": false,
               "seriesNumber": 32,
@@ -140767,16 +141775,16 @@
             },
             "defense": {
               "team": {
-                "id": 121,
-                "name": "New York Mets",
-                "link": "/api/v1/teams/121"
+                "id": 143,
+                "name": "Philadelphia Phillies",
+                "link": "/api/v1/teams/143"
               }
             },
             "offense": {
               "team": {
-                "id": 143,
-                "name": "Philadelphia Phillies",
-                "link": "/api/v1/teams/143"
+                "id": 121,
+                "name": "New York Mets",
+                "link": "/api/v1/teams/121"
               }
             }
           },
@@ -140985,7 +141993,12 @@
               "enhancedGame": false
             },
             "highlights": {},
-            "summary": {},
+            "summary": {
+              "hasPreviewArticle": false,
+              "hasRecapArticle": false,
+              "hasWrapArticle": false,
+              "hasHighlightsVideo": true
+            },
             "gameNotes": {}
           },
           "seriesStatus": {
@@ -141102,10 +142115,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 32,
@@ -141174,9 +142187,9 @@
               },
               "leagueRecord": {
                 "wins": 54,
-                "losses": 43,
+                "losses": 44,
                 "ties": 0,
-                "pct": ".557"
+                "pct": ".551"
               },
               "splitSquad": false,
               "seriesNumber": 32,
@@ -141197,16 +142210,16 @@
             },
             "defense": {
               "team": {
-                "id": 121,
-                "name": "New York Mets",
-                "link": "/api/v1/teams/121"
+                "id": 143,
+                "name": "Philadelphia Phillies",
+                "link": "/api/v1/teams/143"
               }
             },
             "offense": {
               "team": {
-                "id": 143,
-                "name": "Philadelphia Phillies",
-                "link": "/api/v1/teams/143"
+                "id": 121,
+                "name": "New York Mets",
+                "link": "/api/v1/teams/121"
               }
             }
           },
@@ -141532,10 +142545,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 33,
@@ -141935,10 +142948,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 33,
@@ -142338,10 +143351,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 33,
@@ -142812,10 +143825,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 34,
@@ -143242,10 +144255,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 34,
@@ -143266,16 +144279,16 @@
             },
             "defense": {
               "team": {
-                "id": 121,
-                "name": "New York Mets",
-                "link": "/api/v1/teams/121"
+                "id": 119,
+                "name": "Los Angeles Dodgers",
+                "link": "/api/v1/teams/119"
               }
             },
             "offense": {
               "team": {
-                "id": 119,
-                "name": "Los Angeles Dodgers",
-                "link": "/api/v1/teams/119"
+                "id": 121,
+                "name": "New York Mets",
+                "link": "/api/v1/teams/121"
               }
             }
           },
@@ -143507,7 +144520,7 @@
           "dayNight": "night",
           "scheduledInnings": 9,
           "reverseHomeAwayStatus": false,
-          "inningBreakLength": 120,
+          "inningBreakLength": 145,
           "gamesInSeries": 3,
           "seriesGameNumber": 2,
           "seriesDescription": "Regular Season",
@@ -143670,10 +144683,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 34,
@@ -144100,10 +145113,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 35,
@@ -144530,10 +145543,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 35,
@@ -144996,10 +146009,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 35,
@@ -145426,10 +146439,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 36,
@@ -145855,10 +146868,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 36,
@@ -146320,10 +147333,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 36,
@@ -146749,10 +147762,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 36,
@@ -147143,10 +148156,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 37,
@@ -147663,10 +148676,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 37,
@@ -148147,10 +149160,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 37,
@@ -148604,10 +149617,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 38,
@@ -149007,10 +150020,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 38,
@@ -149410,10 +150423,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 38,
@@ -149813,10 +150826,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 39,
@@ -150243,10 +151256,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 39,
@@ -150709,10 +151722,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 39,
@@ -151210,10 +152223,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 40,
@@ -151612,10 +152625,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 40,
@@ -152086,10 +153099,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 40,
@@ -152488,10 +153501,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 41,
@@ -152917,10 +153930,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 41,
@@ -153346,10 +154359,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 41,
@@ -153704,10 +154717,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 42,
@@ -154134,10 +155147,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 42,
@@ -154564,10 +155577,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 42,
@@ -155065,10 +156078,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 43,
@@ -155467,10 +156480,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 43,
@@ -155869,10 +156882,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 43,
@@ -156271,10 +157284,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 44,
@@ -156701,10 +157714,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 44,
@@ -157131,10 +158144,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 44,
@@ -157488,10 +158501,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 45,
@@ -157918,10 +158931,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 45,
@@ -158348,10 +159361,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 45,
@@ -158849,10 +159862,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 46,
@@ -159279,10 +160292,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 46,
@@ -159709,10 +160722,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 46,
@@ -160068,10 +161081,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 47,
@@ -160498,10 +161511,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 47,
@@ -160928,10 +161941,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 47,
@@ -161358,10 +162371,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 48,
@@ -161787,10 +162800,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 48,
@@ -162290,10 +163303,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 48,
@@ -162790,10 +163803,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 49,
@@ -163220,10 +164233,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 49,
@@ -163651,10 +164664,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 49,
@@ -163937,9 +164950,9 @@
               },
               "leagueRecord": {
                 "wins": 54,
-                "losses": 43,
+                "losses": 44,
                 "ties": 0,
-                "pct": ".557"
+                "pct": ".551"
               },
               "splitSquad": false,
               "seriesNumber": 50,
@@ -164007,10 +165020,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 50,
@@ -164361,9 +165374,9 @@
               },
               "leagueRecord": {
                 "wins": 54,
-                "losses": 43,
+                "losses": 44,
                 "ties": 0,
-                "pct": ".557"
+                "pct": ".551"
               },
               "splitSquad": false,
               "seriesNumber": 50,
@@ -164431,10 +165444,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 50,
@@ -164791,9 +165804,9 @@
               },
               "leagueRecord": {
                 "wins": 54,
-                "losses": 43,
+                "losses": 44,
                 "ties": 0,
-                "pct": ".557"
+                "pct": ".551"
               },
               "splitSquad": false,
               "seriesNumber": 50,
@@ -164861,10 +165874,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 50,
@@ -165221,9 +166234,9 @@
               },
               "leagueRecord": {
                 "wins": 54,
-                "losses": 43,
+                "losses": 44,
                 "ties": 0,
-                "pct": ".557"
+                "pct": ".551"
               },
               "splitSquad": false,
               "seriesNumber": 50,
@@ -165291,10 +166304,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 50,
@@ -165650,10 +166663,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 51,
@@ -166080,10 +167093,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 51,
@@ -166510,10 +167523,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 51,
@@ -166940,10 +167953,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 52,
@@ -167343,10 +168356,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 52,
@@ -167746,10 +168759,10 @@
                 "active": true
               },
               "leagueRecord": {
-                "wins": 40,
+                "wins": 41,
                 "losses": 57,
                 "ties": 0,
-                "pct": ".412"
+                "pct": ".418"
               },
               "splitSquad": false,
               "seriesNumber": 52,
