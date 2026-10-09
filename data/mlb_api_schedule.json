@@ -30609,15 +30609,13 @@
                 "runs": 2,
                 "hits": 7,
                 "errors": 0,
-                "leftOnBase": 7,
-                "isWinner": true
+                "leftOnBase": 7
               },
               "away": {
                 "runs": 1,
                 "hits": 6,
                 "errors": 0,
-                "leftOnBase": 6,
-                "isWinner": false
+                "leftOnBase": 6
               }
             },
             "defense": {
@@ -30681,7 +30679,7 @@
                 "fullName": "Francisco Lindor",
                 "link": "/api/v1/people/596019"
               },
-              "battingOrder": 1,
+              "battingOrder": 10,
               "team": {
                 "id": 121,
                 "name": "New York Mets",
@@ -48257,15 +48255,13 @@
                 "runs": 1,
                 "hits": 6,
                 "errors": 0,
-                "leftOnBase": 7,
-                "isWinner": false
+                "leftOnBase": 7
               },
               "away": {
                 "runs": 5,
                 "hits": 7,
                 "errors": 1,
-                "leftOnBase": 8,
-                "isWinner": true
+                "leftOnBase": 8
               }
             },
             "defense": {
@@ -48351,11 +48347,6 @@
                 "id": 687263,
                 "fullName": "Zach Neto",
                 "link": "/api/v1/people/687263"
-              },
-              "first": {
-                "id": 666176,
-                "fullName": "Jo Adell",
-                "link": "/api/v1/people/666176"
               },
               "pitcher": {
                 "id": 519141,
@@ -153332,6 +153323,43 @@
           },
           "broadcasts": [
             {
+              "id": 6458,
+              "name": "BravesVision",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "BravesVsn",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
+              },
+              "broadcastDate": "2026-07-27",
+              "mediaId": "e3ec664b-1d65-4fe3-9e7a-0f163db23df1",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "e3ec664b-1d65-4fe3-9e7a-0f163db23df1",
+              "homeAway": "away",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-07-27T18:30:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -153396,21 +153424,16 @@
               "freeGameStatus": false
             },
             {
-              "id": 6458,
-              "name": "BravesVision",
-              "type": "TV",
-              "language": "en",
+              "id": 5340,
+              "name": "La Mejor 1600/1460/1130 AM",
+              "type": "AM",
+              "language": "es",
               "isNational": false,
-              "callSign": "BravesVsn",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
+              "callSign": "1600 AM",
               "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
               },
               "mediaState": {
                 "mediaStateId": 3,
@@ -153418,17 +153441,12 @@
                 "mediaStateText": "Media Archive"
               },
               "broadcastDate": "2026-07-27",
-              "mediaId": "e3ec664b-1d65-4fe3-9e7a-0f163db23df1",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "e3ec664b-1d65-4fe3-9e7a-0f163db23df1",
+              "mediaId": "83d87a3f-6a8d-4ca4-a2f8-47052c628949",
+              "gameDateBroadcastGuid": "83d87a3f-6a8d-4ca4-a2f8-47052c628949",
               "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
-              "preGameShow": "2026-07-27T18:30:00-04:00",
-              "postGameShow": true,
+              "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -153453,33 +153471,6 @@
               "mediaId": "fb7f608e-700f-4454-8175-4da5e21f40e6",
               "gameDateBroadcastGuid": "fb7f608e-700f-4454-8175-4da5e21f40e6",
               "homeAway": "home",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "postGameShow": false,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
-              "id": 5340,
-              "name": "La Mejor 1600/1460/1130 AM",
-              "type": "AM",
-              "language": "es",
-              "isNational": false,
-              "callSign": "1600 AM",
-              "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 3,
-                "mediaStateCode": "MEDIA_ARCHIVE",
-                "mediaStateText": "Media Archive"
-              },
-              "broadcastDate": "2026-07-27",
-              "mediaId": "83d87a3f-6a8d-4ca4-a2f8-47052c628949",
-              "gameDateBroadcastGuid": "83d87a3f-6a8d-4ca4-a2f8-47052c628949",
-              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
@@ -200810,15 +200801,13 @@
                 "runs": 4,
                 "hits": 7,
                 "errors": 2,
-                "leftOnBase": 5,
-                "isWinner": false
+                "leftOnBase": 5
               },
               "away": {
                 "runs": 10,
                 "hits": 14,
                 "errors": 1,
-                "leftOnBase": 9,
-                "isWinner": true
+                "leftOnBase": 9
               }
             },
             "defense": {
@@ -206514,15 +206503,13 @@
                 "runs": 4,
                 "hits": 6,
                 "errors": 2,
-                "leftOnBase": 4,
-                "isWinner": false
+                "leftOnBase": 4
               },
               "away": {
                 "runs": 9,
                 "hits": 16,
                 "errors": 0,
-                "leftOnBase": 12,
-                "isWinner": true
+                "leftOnBase": 12
               }
             },
             "defense": {
@@ -218203,20 +218190,20 @@
                 "availabilityText": "National"
               },
               "mediaState": {
-                "mediaStateId": 3,
-                "mediaStateCode": "MEDIA_ARCHIVE",
-                "mediaStateText": "Media Archive"
+                "mediaStateId": 1,
+                "mediaStateCode": "MEDIA_OFF",
+                "mediaStateText": "Media Off"
               },
               "broadcastDate": "2026-09-16",
-              "mediaId": "230d4541-af09-4568-9cb3-c28cfb0f8bed",
+              "mediaId": "5f2db9da-9c5d-43bd-be42-685616be1a6a",
               "colorSpace": {
                 "code": "SDR",
                 "colorSpaceFull": "Standard Dynamic Range"
               },
-              "gameDateBroadcastGuid": "230d4541-af09-4568-9cb3-c28cfb0f8bed",
-              "homeAway": "home",
+              "gameDateBroadcastGuid": "5f2db9da-9c5d-43bd-be42-685616be1a6a",
+              "homeAway": "away",
               "freeGame": false,
-              "availableForStreaming": true,
+              "availableForStreaming": false,
               "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
@@ -218239,20 +218226,20 @@
                 "availabilityText": "National"
               },
               "mediaState": {
-                "mediaStateId": 1,
-                "mediaStateCode": "MEDIA_OFF",
-                "mediaStateText": "Media Off"
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
               },
               "broadcastDate": "2026-09-16",
-              "mediaId": "5f2db9da-9c5d-43bd-be42-685616be1a6a",
+              "mediaId": "230d4541-af09-4568-9cb3-c28cfb0f8bed",
               "colorSpace": {
                 "code": "SDR",
                 "colorSpaceFull": "Standard Dynamic Range"
               },
-              "gameDateBroadcastGuid": "5f2db9da-9c5d-43bd-be42-685616be1a6a",
-              "homeAway": "away",
+              "gameDateBroadcastGuid": "230d4541-af09-4568-9cb3-c28cfb0f8bed",
+              "homeAway": "home",
               "freeGame": false,
-              "availableForStreaming": false,
+              "availableForStreaming": true,
               "postGameShow": false,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
@@ -225253,43 +225240,6 @@
           },
           "broadcasts": [
             {
-              "id": 741,
-              "name": "SNY",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "SNY",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 3,
-                "mediaStateCode": "MEDIA_ARCHIVE",
-                "mediaStateText": "Media Archive"
-              },
-              "broadcastDate": "2026-09-22",
-              "mediaId": "71622c25-325d-44a9-8ac3-6408c7f3ddd4",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "71622c25-325d-44a9-8ac3-6408c7f3ddd4",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-09-22T19:30:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 6230,
               "name": "Rangers Sports Network, presented by Progressive",
               "type": "TV",
@@ -225319,6 +225269,43 @@
               },
               "gameDateBroadcastGuid": "b1eba6fe-5eeb-4ea1-ae69-6ff7dce5f598",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "preGameShow": "2026-09-22T19:30:00-04:00",
+              "postGameShow": true,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 741,
+              "name": "SNY",
+              "type": "TV",
+              "language": "en",
+              "isNational": false,
+              "callSign": "SNY",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
+              "availability": {
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
+              },
+              "broadcastDate": "2026-09-22",
+              "mediaId": "71622c25-325d-44a9-8ac3-6408c7f3ddd4",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "71622c25-325d-44a9-8ac3-6408c7f3ddd4",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "preGameShow": "2026-09-22T19:30:00-04:00",
