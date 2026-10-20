@@ -128946,13 +128946,15 @@
                 "runs": 9,
                 "hits": 12,
                 "errors": 1,
-                "leftOnBase": 6
+                "leftOnBase": 6,
+                "isWinner": false
               },
               "away": {
                 "runs": 10,
                 "hits": 12,
                 "errors": 3,
-                "leftOnBase": 4
+                "leftOnBase": 4,
+                "isWinner": true
               }
             },
             "defense": {
@@ -129038,6 +129040,16 @@
                 "id": 642201,
                 "fullName": "Eli White",
                 "link": "/api/v1/people/642201"
+              },
+              "second": {
+                "id": 643289,
+                "fullName": "Mauricio Dub\u00f3n",
+                "link": "/api/v1/people/643289"
+              },
+              "third": {
+                "id": 671739,
+                "fullName": "Michael Harris II",
+                "link": "/api/v1/people/671739"
               },
               "pitcher": {
                 "id": 471911,
@@ -153321,43 +153333,6 @@
           },
           "broadcasts": [
             {
-              "id": 6458,
-              "name": "BravesVision",
-              "type": "TV",
-              "language": "en",
-              "isNational": false,
-              "callSign": "BravesVsn",
-              "videoResolution": {
-                "code": "FHD",
-                "resolutionShort": "FHD",
-                "resolutionFull": "Full High Definition (1080p)"
-              },
-              "availability": {
-                "availabilityId": 1,
-                "availabilityCode": "local_in_market",
-                "availabilityText": "Local (In Market)"
-              },
-              "mediaState": {
-                "mediaStateId": 3,
-                "mediaStateCode": "MEDIA_ARCHIVE",
-                "mediaStateText": "Media Archive"
-              },
-              "broadcastDate": "2026-07-27",
-              "mediaId": "e3ec664b-1d65-4fe3-9e7a-0f163db23df1",
-              "colorSpace": {
-                "code": "SDR",
-                "colorSpaceFull": "Standard Dynamic Range"
-              },
-              "gameDateBroadcastGuid": "e3ec664b-1d65-4fe3-9e7a-0f163db23df1",
-              "homeAway": "away",
-              "freeGame": false,
-              "availableForStreaming": true,
-              "preGameShow": "2026-07-27T18:30:00-04:00",
-              "postGameShow": true,
-              "mvpdAuthRequired": false,
-              "freeGameStatus": false
-            },
-            {
               "id": 741,
               "name": "SNY",
               "type": "TV",
@@ -153422,16 +153397,21 @@
               "freeGameStatus": false
             },
             {
-              "id": 5340,
-              "name": "La Mejor 1600/1460/1130 AM",
-              "type": "AM",
-              "language": "es",
+              "id": 6458,
+              "name": "BravesVision",
+              "type": "TV",
+              "language": "en",
               "isNational": false,
-              "callSign": "1600 AM",
+              "callSign": "BravesVsn",
+              "videoResolution": {
+                "code": "FHD",
+                "resolutionShort": "FHD",
+                "resolutionFull": "Full High Definition (1080p)"
+              },
               "availability": {
-                "availabilityId": 2,
-                "availabilityCode": "local_out_of_market",
-                "availabilityText": "Local (Out of Market)"
+                "availabilityId": 1,
+                "availabilityCode": "local_in_market",
+                "availabilityText": "Local (In Market)"
               },
               "mediaState": {
                 "mediaStateId": 3,
@@ -153439,12 +153419,17 @@
                 "mediaStateText": "Media Archive"
               },
               "broadcastDate": "2026-07-27",
-              "mediaId": "83d87a3f-6a8d-4ca4-a2f8-47052c628949",
-              "gameDateBroadcastGuid": "83d87a3f-6a8d-4ca4-a2f8-47052c628949",
+              "mediaId": "e3ec664b-1d65-4fe3-9e7a-0f163db23df1",
+              "colorSpace": {
+                "code": "SDR",
+                "colorSpaceFull": "Standard Dynamic Range"
+              },
+              "gameDateBroadcastGuid": "e3ec664b-1d65-4fe3-9e7a-0f163db23df1",
               "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
-              "postGameShow": false,
+              "preGameShow": "2026-07-27T18:30:00-04:00",
+              "postGameShow": true,
               "mvpdAuthRequired": false,
               "freeGameStatus": false
             },
@@ -153469,6 +153454,33 @@
               "mediaId": "fb7f608e-700f-4454-8175-4da5e21f40e6",
               "gameDateBroadcastGuid": "fb7f608e-700f-4454-8175-4da5e21f40e6",
               "homeAway": "home",
+              "freeGame": false,
+              "availableForStreaming": true,
+              "postGameShow": false,
+              "mvpdAuthRequired": false,
+              "freeGameStatus": false
+            },
+            {
+              "id": 5340,
+              "name": "La Mejor 1600/1460/1130 AM",
+              "type": "AM",
+              "language": "es",
+              "isNational": false,
+              "callSign": "1600 AM",
+              "availability": {
+                "availabilityId": 2,
+                "availabilityCode": "local_out_of_market",
+                "availabilityText": "Local (Out of Market)"
+              },
+              "mediaState": {
+                "mediaStateId": 3,
+                "mediaStateCode": "MEDIA_ARCHIVE",
+                "mediaStateText": "Media Archive"
+              },
+              "broadcastDate": "2026-07-27",
+              "mediaId": "83d87a3f-6a8d-4ca4-a2f8-47052c628949",
+              "gameDateBroadcastGuid": "83d87a3f-6a8d-4ca4-a2f8-47052c628949",
+              "homeAway": "away",
               "freeGame": false,
               "availableForStreaming": true,
               "postGameShow": false,
